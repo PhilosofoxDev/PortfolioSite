@@ -6,14 +6,13 @@ import PageTemplate from "./pages/PortfolioItemPageTemplate.jsx";
 export default function NavBar() {
   return (
     <Router>
-      <nav className="bg-purple-950 p-4">
-        <ul className="grid-cols-3 flex justify-around items-center space-x-4">
+      <nav className="p-4">
+        <ul className="grid-cols flex justify-end space-x-10">
           <li>
             <Link to="/" className="text-white text-2xl font-bold">
               Home
             </Link>
           </li>
-
           <li>
             <Link to="/portfoliopage" className="text-white text-2xl font-bold">
               Portfolio
@@ -21,10 +20,6 @@ export default function NavBar() {
           </li>
         </ul>
       </nav>
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/portfoliopage" element={<PageTemplate />} />
-      </Routes>
     </Router>
   );
 }

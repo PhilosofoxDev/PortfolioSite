@@ -1,13 +1,11 @@
 import React from "react";
 import "tailwindcss";
 import Header from "./Header.jsx";
-import NavBar from "./NavBar.jsx";
 
 function App() {
   return (
-    <div className="">
-      <Header />
-      <NavBar />
+    <div className="h-screen items-start align-top">
+      <Header /> {/* Contains NavBar */}
     </div>
   );
 }
