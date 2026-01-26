@@ -1,6 +1,6 @@
 export default function HomePage() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-stone-900">
+    <div className="overscroll-x-none flex flex-col items-center justify-center min-h-screen min-w-screen bg-stone-900">
       <h1 className="text-5xl font-bold mb-6 text-purple-400">
         Welcome to My Portfolio
       </h1>

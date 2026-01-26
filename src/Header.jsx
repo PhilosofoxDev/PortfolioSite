@@ -1,10 +1,7 @@
-import NavBar from "./NavBar.jsx";
-import React from "react";
-import { BrowserRouter as Router, Link, Routes } from "react-router-dom";
-import HomePage from "./pages/HomePage.jsx";
+import { Link } from "react-router-dom";
 export default function Header() {
   return (
-    <div className="bg-stone-900 align-top items-start">
+    <div className="bg-stone-900 align-top items-start overscroll-x-none w-screen">
       <header className="p-4 pb-6 w-screen">
         <div className="grid grid-cols-2 gap-4 justify-between">
           <div className="Logo flex items-center justify-start">
@@ -12,7 +9,7 @@ export default function Header() {
               Logo/Stylized Name
             </h1>
           </div>
-          <div className="NavigationBar bg-white/50 flex justify-center align-top">
+          <div className="NavigationBar bg-transparent flex justify-center align-top">
             <nav className="p-4">
               <ul className="grid-cols flex space-x-50">
                 <li>

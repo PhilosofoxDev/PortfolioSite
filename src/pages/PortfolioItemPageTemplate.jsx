@@ -1,4 +1,4 @@
-export default function PorfolioPage() {
+export default function PortfolioItemPageTemplate() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
       <h1 className="text-5xl font-bold mb-6 text-purple-900">Portfolio</h1>
