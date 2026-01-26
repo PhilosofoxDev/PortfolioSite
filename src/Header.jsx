@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import NavBar from "./NavBar";
 export default function Header() {
   return (
     <div className="bg-stone-900 align-top items-start overscroll-x-none w-screen">
@@ -9,25 +10,7 @@ export default function Header() {
               Logo/Stylized Name
             </h1>
           </div>
-          <div className="NavigationBar bg-transparent flex justify-center align-top">
-            <nav className="p-4">
-              <ul className="grid-cols flex space-x-50">
-                <li>
-                  <Link to="/" className="text-white text-3xl font-bold">
-                    Home
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="/portfoliopage"
-                    className="text-white text-3xl font-bold"
-                  >
-                    Portfolio
-                  </Link>
-                </li>
-              </ul>
-            </nav>
-          </div>
+          <NavBar />
         </div>
       </header>
     </div>
