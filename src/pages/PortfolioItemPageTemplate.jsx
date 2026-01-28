@@ -5,7 +5,7 @@ export default function PItemTemplate({ CardName, CardDesc }) {
         {CardName}
       </h1>
       <div className="max-w-60 text-center">
-        <p className="text-2xl text-orange-700 max-w-xl text-center font-MacondoRegular">
+        <p className="text-2xl text-orange-600 max-w-xl text-center font-MacondoRegular">
           {CardDesc}
         </p>
       </div>

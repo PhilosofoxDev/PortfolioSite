@@ -19,13 +19,13 @@ export default function NavBar() {
             </Link>
           </li>
           <li>
-            <Link to="/aboutpage" className="text-white text-2xl font-bold">
-              About
+            <Link to="/resumepage" className="text-white text-2xl font-bold">
+              Resume
             </Link>
           </li>
           <li>
-            <Link to="/resumepage" className="text-white text-2xl font-bold">
-              Resume
+            <Link to="/aboutpage" className="text-white text-2xl font-bold">
+              About
             </Link>
           </li>
         </ul>
