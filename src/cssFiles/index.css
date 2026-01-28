@@ -68,6 +68,60 @@ button:focus-visible {
   }
 }
 
-@theme {
+@font-face {
+  font-family: BethEllen;
+  src: url("../src/assets/fonts/BethEllen-Regular.ttf");
+}
 
+@font-face {
+  font-family: Charmonman;
+  src: url("../src/assets/fonts/Charmonman-Bold.ttf");
+}
+
+@font-face {
+  font-family: EmblemaOne;
+  src: url("../src/assets/fonts/EmblemaOne-Regular.ttf");
+}
+
+@font-face {
+  font-family: FrukturRegular;
+  src: url("../src/assets/fonts/Fruktur-Regular.ttf");
+}
+
+@font-face {
+  font-family: MacondoRegular;
+  src: url("../src/assets/fonts/Macondo-Regular.ttf");
+}
+
+@font-face {
+  font-family: PaletteMosaic;
+  src: url("../src/assets/fonts/PaletteMosaic-Regular.ttf");
+}
+
+@font-face {
+  font-family: Satisfy;
+  src: url("../src/assets/fonts/Satisfy-Regular.ttf");
+}
+
+
+@theme {
+/* FunSiteColors */
+--color-windowBox: #fef1e7;
+--color-siteBg: #f4f1eF;
+--color-siteGreen: #698c61;
+--color-alternateBgBlue: #dbeeff;
+--color-workTileBg: #fbe1cb;
+--color-darkModeWindow: #2C2C30;
+--color-darkModeGreen: #0B5E36;
+--color-darkModeOrange: #C45602;
+--color-darkModeTile: #414146;
+
+/* Fonts */
+--font-BethEllen: BethEllen, "sans-serif";
+--font-Charmonman: Charmonman, "sans-serif";
+--font-EmblemaOne: EmblemaOne, "sans-serif";
+--font-FrukturRegular: FrukturRegular, "sans-serif";
+--font-MacondoRegular: MacondoRegular, "sans-serif";
+--font-PaletteMosaic: PaletteMosaic, "sans-serif";
+--font-Satisfy: Satisfy, "sans-serif";
 }

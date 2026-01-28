@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import NavBar from "./NavBar";
 export default function Header() {
   return (
@@ -6,7 +5,7 @@ export default function Header() {
       <header className="p-4 pb-6 w-screen">
         <div className="grid grid-cols-2 gap-4 justify-between">
           <div className="Logo flex items-center justify-start">
-            <h1 className="text-white text-xl font-bold pl-5">
+            <h1 className="text-white text-xl font-bold pl-5 font-EmblemaOne">
               Nathan Lomnicky
             </h1>
           </div>

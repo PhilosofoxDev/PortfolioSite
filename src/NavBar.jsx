@@ -5,7 +5,7 @@ import PageTemplate from "./pages/PortfolioItemPageTemplate.jsx";
 
 export default function NavBar() {
   return (
-    <div className="NavigationBar bg-transparent flex justify-end align-top pr-10">
+    <div className="NavigationBar bg-transparent flex justify-end pr-10 font-EmblemaOne">
       <nav className="p-4">
         <ul className="grid-cols flex space-x-10">
           <li>
