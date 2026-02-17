@@ -5,26 +5,26 @@ import PageTemplate from "./pages/PortfolioItemPageTemplate.jsx";
 
 export default function NavBar() {
   return (
-    <div className="NavigationBar bg-transparent flex justify-end pr-10 font-EmblemaOne">
-      <nav className="p-4">
-        <ul className="grid-cols flex space-x-10">
+    <div className="NavigationBar bg-transparent flex justify-end items-center pr-10 font-EmblemaOne">
+      <nav className="items-center p-4">
+        <ul className="flex space-x-10 text-[1.7rem] text-white font-bold self-center">
           <li>
-            <Link to="/" className="text-white text-2xl font-bold">
+            <Link to="/" className="">
               Home
             </Link>
           </li>
           <li>
-            <Link to="/portfoliopage" className="text-white text-2xl font-bold">
+            <Link to="/portfoliopage" className="">
               Portfolio
             </Link>
           </li>
           <li>
-            <Link to="/resumepage" className="text-white text-2xl font-bold">
+            <Link to="/resumepage" className="">
               Resume
             </Link>
           </li>
           <li>
-            <Link to="/aboutpage" className="text-white text-2xl font-bold">
+            <Link to="/aboutpage" className="">
               About
             </Link>
           </li>
