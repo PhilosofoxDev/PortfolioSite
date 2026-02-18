@@ -14,17 +14,17 @@ export default function NavBar() {
             </Link>
           </li>
           <li>
-            <Link to="/portfoliopage" className="">
+            <Link to="/portfolio" className="">
               Portfolio
             </Link>
           </li>
           <li>
-            <Link to="/resumepage" className="">
+            <Link to="/resume" className="">
               Resume
             </Link>
           </li>
           <li>
-            <Link to="/aboutpage" className="">
+            <Link to="/about" className="">
               About
             </Link>
           </li>
