@@ -13,7 +13,7 @@ import UIXPortfolio from "./pages/UIXPortfolio.jsx";
 
 function App() {
   return (
-    <div className="h-screen items-start align-top overscroll-x-none">
+    <div className="flex flex-col justify-between min-h-screen  align-top overscroll-x-none">
       <Header /> {/* Contains NavBar */}
       <Routes>
         <Route path="/" element={<HomePage />} />

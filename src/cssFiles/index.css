@@ -8,7 +8,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #1c1917;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -33,22 +33,27 @@ body {
 }
 
 h1 {
-  font-size: 2.2em;
   line-height: 1.1;
 }
 
 button {
   border-radius: 8px;
-  border: 1px solid transparent;
+  border: 4px solid;
   padding: 0.6em 1.2em;
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
   cursor: pointer;
+  border-color: #ff6900;
   transition: border-color 0.25s;
+  transition: background-color 0.25s;
+  transition: border 0.08s;
 }
 button:hover {
-  border-color: #cc6511;
+  border: 7px solid;
+  border-color: #ff6a00;
+  background-color: #2b2825;
+  
 }
 button:focus,
 button:focus-visible {

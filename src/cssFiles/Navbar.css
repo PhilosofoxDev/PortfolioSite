@@ -1,0 +1,15 @@
+.navbar {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+}
+
+.nav-link {
+    text-decoration: none;
+    transition: border-color 0.3s;
+}
+
+.nav-link.active {
+  border-bottom: 3px solid #ff6900; /* Underline active link */
+  font-weight: bold;
+}

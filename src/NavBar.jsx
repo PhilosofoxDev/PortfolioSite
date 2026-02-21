@@ -1,32 +1,59 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Link,
+  NavLink,
+} from "react-router-dom";
 import HomePage from "./pages/HomePage.jsx";
 import PageTemplate from "./pages/PortfolioItemPageTemplate.jsx";
+import "./cssFiles/Navbar.css";
 
 export default function NavBar() {
   return (
     <div className="NavigationBar bg-transparent flex justify-end items-center pr-10 font-EmblemaOne">
-      <nav className="items-center p-4">
-        <ul className="flex space-x-10 text-[1.7rem] text-white font-bold self-center">
+      <nav className="items-center p-4 navbar">
+        <ul className="flex space-x-15 text-[1.8rem] text-white font-bold self-center">
           <li>
-            <Link to="/" className="">
+            <NavLink
+              to="/"
+              className={({ isActive }) =>
+                isActive ? "nav-link active" : "nav-link"
+              }
+            >
               Home
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link to="/portfolio" className="">
+            <NavLink
+              to="/portfolio"
+              className={({ isActive }) =>
+                isActive ? "nav-link active" : "nav-link"
+              }
+            >
               Portfolio
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link to="/resume" className="">
+            <NavLink
+              to="/resume"
+              className={({ isActive }) =>
+                isActive ? "nav-link active" : "nav-link"
+              }
+            >
               Resume
-            </Link>
+            </NavLink>
           </li>
           <li>
-            <Link to="/about" className="">
+            <NavLink
+              to="/about"
+              className={({ isActive }) =>
+                isActive ? "nav-link active" : "nav-link"
+              }
+            >
               About
-            </Link>
+            </NavLink>
           </li>
         </ul>
       </nav>
