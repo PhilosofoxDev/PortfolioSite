@@ -12,14 +12,14 @@ export default function AboutPage() {
           <h1 className="font-bold font-EmblemaOne text-orange-500">
             Nathan Lomnicky
           </h1>
-          <p className=" text-gray-300 font-EmblemaOne text-3xl">
+          <p className=" text-gray-100 font-EmblemaOne text-3xl">
             Independent Game and Web Developer
           </p>
         </div>
       </div>
       <div className="Body mt-20">
         <h1 className="text-5xl font-bold mb-6 text-orange-500">About Me</h1>
-        <p className="text-lg text-gray-300 max-w-xl text-center">Who am I?</p>
+        <p className="text-lg text-white max-w-xl text-center">Who am I?</p>
       </div>
     </div>
   );

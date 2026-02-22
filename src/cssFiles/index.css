@@ -8,7 +8,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #1c1917;
+  background-color: #292524;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -45,15 +45,16 @@ button {
   font-family: inherit;
   cursor: pointer;
   border-color: #ff6900;
-  transition: border-color 0.25s;
-  transition: background-color 0.25s;
-  transition: border 0.08s;
+  transition: border-color 0.25s ease-in-out;
+  transition: background-color 0.25s ease-in-out;
+  transition: border 0.08s ease-in-out;
+  transition: transform 0.2s ease-in-out;
 }
 button:hover {
   border: 7px solid;
   border-color: #ff6a00;
   background-color: #2b2825;
-  
+  transform: scale(1.0000000001);
 }
 button:focus,
 button:focus-visible {
@@ -65,13 +66,10 @@ button:focus-visible {
 @media (prefers-color-scheme: light) {
   :root {
     color: #cc6511;
-    background-color: #ffffff;
+    
   }
   a:hover {
     color: #cc6511;
-  }
-  button {
-    background-color: #f9f9f9;
   }
 }
 
