@@ -61,11 +61,14 @@ li:hover {
   color: white;
   text-decoration: none;
   transition: color 0.2s ease-in-out;
-   transition: transform 0.2s ease-in-out;
 }
 
 .dropdown li a:hover {
   color: #ff6900;
   text-decoration: none;
   transform: scale(1.5) ease-in-out;
+}
+
+.dropdownContainer {
+  transition: transform 0.3s ease-in-out;
 }

@@ -17,7 +17,7 @@ export default function NavBar() {
   return (
     <div className="NavigationBar bg-transparent flex items-start font-EmblemaOne">
       <nav className="flex p-4 navbar">
-        <div className="flex flex-col max-md:w-screen">
+        <div className="dropdownContainer flex flex-col max-md:w-screen">
           <button
             className="navButton menu-btn md:hidden self-start"
             onClick={toggleMenu}

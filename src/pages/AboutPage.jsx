@@ -1,7 +1,7 @@
 import duckPFP from "../assets/images/KissingDuckPFPSquare.webp";
 export default function AboutPage() {
   return (
-    <div className="overscroll-x-none flex items-center pt-20 flex-col min-h-screen min-w-screen bg-stone-900">
+    <div className="overscroll-x-none flex items-center pt-20 flex-col min-h-screen min-w-screen bg-stone-800">
       <div className="Intro flex mb-6 justify-center gap-x-15 items-center min-w-screen">
         <img
           src={duckPFP}
@@ -17,9 +17,18 @@ export default function AboutPage() {
           </p>
         </div>
       </div>
-      <div className="Body mt-20">
-        <h1 className="text-5xl font-bold mb-6 text-orange-500">About Me</h1>
-        <p className="text-lg text-white max-w-xl text-center">Who am I?</p>
+      <div className="Body mt-35 text-center">
+        <h1 className="text-5xl font-bold mb-6 text-orange-500 font-EmblemaOne">
+          About Me
+        </h1>
+        {/* clearer font for bulk text sections? */}
+        {/* figure out how to change line spacing in a text element */}
+        <p className="text-2xl text-white min-w-md max-w-5xl text-center">
+          Lorem Ipsum dolor sol amet lorem ipsum dolor sol amet Lorem Ipsum
+          dolor sol amet lorem ipsum dolor sol amet Lorem Ipsum dolor sol amet
+          lorem ipsum dolor sol amet Lorem Ipsum dolor sol amet lorem ipsum
+          dolor sol amet
+        </p>
       </div>
     </div>
   );
