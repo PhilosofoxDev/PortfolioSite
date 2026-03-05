@@ -17,17 +17,22 @@ export default function AboutPage() {
           </p>
         </div>
       </div>
-      <div className="Body mt-35 text-center">
+      <div className="Body mt-25 mb-10 text-center">
         <h1 className="text-5xl font-bold mb-6 text-orange-500 font-EmblemaOne">
           About Me
         </h1>
         {/* clearer font for bulk text sections? */}
         {/* figure out how to change line spacing in a text element */}
         <p className="text-2xl text-white min-w-md max-w-5xl text-center">
-          Lorem Ipsum dolor sol amet lorem ipsum dolor sol amet Lorem Ipsum
-          dolor sol amet lorem ipsum dolor sol amet Lorem Ipsum dolor sol amet
-          lorem ipsum dolor sol amet Lorem Ipsum dolor sol amet lorem ipsum
-          dolor sol amet
+          Hey! My name's Nathan, a game and web developer with a passion for
+          creating entertaining and immersive experiences for people to enjoy.
+          {/* I have a strong background in programming and design, and I'm always
+          looking for new ways to push the boundaries of what's possible in game
+          development. Whether it's creating a new game from scratch or working
+          on an existing project, I'm dedicated to delivering high-quality work
+          that exceeds expectations. When I'm not coding or designing, you can
+          find me playing games, exploring new technologies, or spending time
+          with friends and family. */}
         </p>
       </div>
     </div>

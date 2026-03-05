@@ -28,7 +28,7 @@ export default function Footer() {
               setTooltipText("Copied!");
             }}
             onMouseOver={() => {
-              setTooltipText("Copy to Clipboard");
+              setTooltipText("Copy Email Address to Clipboard");
             }}
           >
             <Tooltip id="copy-email-tooltip" />
