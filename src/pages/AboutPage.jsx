@@ -17,7 +17,7 @@ export default function AboutPage() {
           </p>
         </div>
       </div>
-      <div className="Body mt-25 mb-10 text-center">
+      <div className="Body mt-20 mb-10 text-center">
         <h1 className="text-5xl font-bold mb-6 text-orange-500 font-EmblemaOne">
           About Me
         </h1>
