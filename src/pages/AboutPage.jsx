@@ -1,10 +1,11 @@
-import duckPFP from "../assets/images/KissingDuckPFPSquare.webp";
+//import duckPFP from "../assets/images/KissingDuckPFPSquare.webp";
+import regPFP from "../assets/images/PFPTHATIUSEOMG.png";
 export default function AboutPage() {
   return (
     <div className="overscroll-x-none flex items-center pt-20 flex-col min-h-screen min-w-screen bg-stone-800">
       <div className="Intro flex mb-6 justify-center gap-x-3 md:gap-x-10 lg:gap-x-15 items-center min-w-screen">
         <img
-          src={duckPFP}
+          src={regPFP}
           alt="A duck kissing a computer monitor"
           className="ml-5 sm:ml-0 md:ml-5 size-35 md:size-50 lg:size-80 rounded-xl border-3 lg:border-4 border-orange-500"
         />
