@@ -16,12 +16,12 @@ export default function PorfolioPage() {
             CardDesc="My web development projects."
           />
         </Link>
-        <Link to="/UIXPortfolio" className="">
+        {/* <Link to="/UIXPortfolio" className="">
           <PItemTemplate
             CardName="UI/UX"
             CardDesc="My UI/UX design projects."
           />
-        </Link>
+        </Link> Re-add once you got something goober*/}
       </div>
     </div>
   );

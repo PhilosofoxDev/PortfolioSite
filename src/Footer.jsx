@@ -1,4 +1,5 @@
 import insta from "./assets/images/instagram.png";
+import itch from "./assets/images/itchLogo.png";
 import linkedin from "./assets/images/linkedin.png";
 import email from "./assets/images/mail.png";
 import { Tooltip } from "react-tooltip";
@@ -13,6 +14,9 @@ export default function Footer() {
         <div className="flex items-center justify-center gap-x-6">
           <a href="https://www.instagram.com/nathan.nikc/" target="_blank">
             <img alt="insta" src={insta} className="w-12 invert-100" />
+          </a>
+          <a href="https://philosofox.itch.io/" target="_blank">
+            <img alt="itch" src={itch} className="w-12 invert-100" />
           </a>
           <a
             href="https://www.linkedin.com/in/nathan-lomnicky/"
