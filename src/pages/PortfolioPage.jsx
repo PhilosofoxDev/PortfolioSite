@@ -1,5 +1,5 @@
 import PItemTemplate from "./PortfolioItemPageTemplate";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { HashRouter as Router, Routes, Route, Link } from "react-router-dom";
 export default function PorfolioPage() {
   return (
     <div className="flex items-align-center justify-around min-w-screen bg-stone-800">
