@@ -20,6 +20,7 @@ a {
   font-weight: 500;
   text-decoration: inherit;
 }
+
 a:hover {
   color: #ff6900
 }
@@ -50,12 +51,14 @@ button {
   transition: border 0.08s ease-in-out;
   transition: transform 0.2s ease-in-out;
 }
+
 button:hover {
   border: 7px solid;
   border-color: #ff6a00;
   background-color: #2b2825;
   transform: scale(1.0000000001);
 }
+
 button:focus,
 button:focus-visible {
   outline: 4px;
@@ -66,8 +69,9 @@ button:focus-visible {
 @media (prefers-color-scheme: light) {
   :root {
     color: #cc6511;
-    
+
   }
+
   a:hover {
     color: #cc6511;
   }
@@ -110,23 +114,23 @@ button:focus-visible {
 
 
 @theme {
-/* FunSiteColors */
---color-windowBox: #fef1e7;
---color-siteBg: #f4f1eF;
---color-siteGreen: #698c61;
---color-alternateBgBlue: #dbeeff;
---color-workTileBg: #fbe1cb;
---color-darkModeWindow: #2C2C30;
---color-darkModeGreen: #0B5E36;
---color-darkModeOrange: #C45602;
---color-darkModeTile: #414146;
+  /* FunSiteColors */
+  --color-windowBox: #fef1e7;
+  --color-siteBg: #f4f1eF;
+  --color-siteGreen: #698c61;
+  --color-alternateBgBlue: #dbeeff;
+  --color-workTileBg: #fbe1cb;
+  --color-darkModeWindow: #2C2C30;
+  --color-darkModeGreen: #0B5E36;
+  --color-darkModeOrange: #C45602;
+  --color-darkModeTile: #414146;
 
-/* Fonts */
---font-BethEllen: BethEllen, "sans-serif";
---font-Charmonman: Charmonman, "sans-serif";
---font-EmblemaOne: EmblemaOne, "sans-serif";
---font-FrukturRegular: FrukturRegular, "sans-serif";
---font-MacondoRegular: MacondoRegular, "sans-serif";
---font-PaletteMosaic: PaletteMosaic, "sans-serif";
---font-Satisfy: Satisfy, "sans-serif";
+  /* Fonts */
+  --font-BethEllen: BethEllen, "sans-serif";
+  --font-Charmonman: Charmonman, "sans-serif";
+  --font-EmblemaOne: EmblemaOne, "sans-serif";
+  --font-FrukturRegular: FrukturRegular, "sans-serif";
+  --font-MacondoRegular: MacondoRegular, "sans-serif";
+  --font-PaletteMosaic: PaletteMosaic, "sans-serif";
+  --font-Satisfy: Satisfy, "sans-serif";
 }
