@@ -78,38 +78,41 @@ button:focus-visible {
 }
 
 @font-face {
-  font-family: BethEllen;
+  font-family: 'BethEllen';
   src: url("../src/assets/fonts/BethEllen-Regular.ttf");
 }
 
 @font-face {
-  font-family: Charmonman;
+  font-family: 'Charmonman';
   src: url("../src/assets/fonts/Charmonman-Bold.ttf");
 }
 
 @font-face {
-  font-family: EmblemaOne;
-  src: url("../src/assets/fonts/EmblemaOne-Regular.ttf");
+  font-family: 'EmblemaOne';
+  src: url('../assets/fonts/EmblemaOne-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+
 }
 
 @font-face {
-  font-family: FrukturRegular;
-  src: url("../src/assets/fonts/Fruktur-Regular.ttf");
+  font-family: 'FrukturRegular';
+  src: url("../src/assets/fonts/Fruktur-Regular.ttf") format('truetype');
 }
 
 @font-face {
-  font-family: MacondoRegular;
-  src: url("../src/assets/fonts/Macondo-Regular.ttf");
+  font-family: 'MacondoRegular';
+  src: url("../src/assets/fonts/Macondo-Regular.ttf") format('truetype');
 }
 
 @font-face {
-  font-family: PaletteMosaic;
-  src: url("../src/assets/fonts/PaletteMosaic-Regular.ttf");
+  font-family: 'PaletteMosaic';
+  src: url("../src/assets/fonts/PaletteMosaic-Regular.ttf") format('truetype');
 }
 
 @font-face {
-  font-family: Satisfy;
-  src: url("../src/assets/fonts/Satisfy-Regular.ttf");
+  font-family: 'Satisfy';
+  src: url("../src/assets/fonts/Satisfy-Regular.ttf") format('truetype');
 }
 
 
