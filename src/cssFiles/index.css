@@ -79,12 +79,12 @@ button:focus-visible {
 
 @font-face {
   font-family: 'BethEllen';
-  src: url("..assets/fonts/BethEllen-Regular.ttf");
+  src: url("../assets/fonts/BethEllen-Regular.ttf") format('truetype');
 }
 
 @font-face {
   font-family: 'Charmonman';
-  src: url("../assets/fonts/Charmonman-Bold.ttf");
+  src: url("../assets/fonts/Charmonman-Bold.ttf") format('truetype');
 }
 
 @font-face {
