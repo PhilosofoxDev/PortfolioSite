@@ -79,12 +79,12 @@ button:focus-visible {
 
 @font-face {
   font-family: 'BethEllen';
-  src: url("../src/assets/fonts/BethEllen-Regular.ttf");
+  src: url("..assets/fonts/BethEllen-Regular.ttf");
 }
 
 @font-face {
   font-family: 'Charmonman';
-  src: url("../src/assets/fonts/Charmonman-Bold.ttf");
+  src: url("../assets/fonts/Charmonman-Bold.ttf");
 }
 
 @font-face {
@@ -97,22 +97,22 @@ button:focus-visible {
 
 @font-face {
   font-family: 'FrukturRegular';
-  src: url("../src/assets/fonts/Fruktur-Regular.ttf") format('truetype');
+  src: url("../assets/fonts/Fruktur-Regular.ttf") format('truetype');
 }
 
 @font-face {
   font-family: 'MacondoRegular';
-  src: url("../src/assets/fonts/Macondo-Regular.ttf") format('truetype');
+  src: url("../assets/fonts/Macondo-Regular.ttf") format('truetype');
 }
 
 @font-face {
   font-family: 'PaletteMosaic';
-  src: url("../src/assets/fonts/PaletteMosaic-Regular.ttf") format('truetype');
+  src: url("../assets/fonts/PaletteMosaic-Regular.ttf") format('truetype');
 }
 
 @font-face {
   font-family: 'Satisfy';
-  src: url("../src/assets/fonts/Satisfy-Regular.ttf") format('truetype');
+  src: url("../assets/fonts/Satisfy-Regular.ttf") format('truetype');
 }
 
 
