@@ -10,3 +10,13 @@
     -webkit-text-stroke: 1px #1c1917;
 
 }
+
+@font-face {
+    font-family: 'EmblemaOne';
+    src: url('../assets/fonts/EmblemaOne-Regular.ttf') format('ttf'),
+        url('../assets/fonts/EmblemaOne-Regular.woff') format('ttf');
+}
+
+h1 {
+    font-family: 'EmblemaOne', sans-serif;
+}
