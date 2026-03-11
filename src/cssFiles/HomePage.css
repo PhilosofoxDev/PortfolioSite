@@ -3,7 +3,7 @@
 }
 
 .font-outline {
-    -webkit-text-stroke: 2px #1c1917;
+    -webkit-text-stroke: 1px #1c1917;
 }
 
 .font-outline-sm {
@@ -13,10 +13,11 @@
 
 @font-face {
     font-family: 'EmblemaOne';
-    src: url('../assets/fonts/EmblemaOne-Regular.ttf') format('ttf'),
-        url('../assets/fonts/EmblemaOne-Regular.woff') format('ttf');
+    src: url('https://fonts.googleapis.com/css2?family=Emblema+One&display=swap') format('ttf'),
+        url('https://fonts.googleapis.com/css2?family=Emblema+One&display=swap') format('ttf');
 }
 
 h1 {
     font-family: 'EmblemaOne', sans-serif;
+    ;
 }
