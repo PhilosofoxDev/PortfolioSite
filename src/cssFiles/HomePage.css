@@ -13,11 +13,12 @@
 
 @font-face {
     font-family: 'EmblemaOne';
-    src: url('https://fonts.googleapis.com/css2?family=Emblema+One&display=swap') format('ttf'),
-        url('https://fonts.googleapis.com/css2?family=Emblema+One&display=swap') format('ttf');
+    src: url('../assets/fonts/EmblemaOne-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 h1 {
     font-family: 'EmblemaOne', sans-serif;
-    ;
 }
