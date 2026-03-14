@@ -6,7 +6,7 @@ export default function GamePortfolio() {
   return (
     <div className="overscroll-x-none flex flex-col min-h-screen max-w-screen bg-stone-800">
       {/* Video here in future ^^^ */}
-      <div className="flex flex-col gap-y-30 ml-65 mt-40 mb-15">
+      <div className="flex flex-col gap-y-30 items-center mt-40 mb-15">
         <div className="flex items-start gap-x-20">
           <ItemTemplate
             ItemImage={Bedmime}
@@ -20,12 +20,14 @@ export default function GamePortfolio() {
             took on something more ambitious. I am really proud of how this
             project turned out, and it was a great learning experience for me as
             a developer."
+            ItemLink="https://philosofox.itch.io/bedmime"
           />
         </div>
         <div className="flex items-start gap-x-20">
           <ItemTemplate
             ItemImage={GoatSim}
             ItemDesc="'Mountain Goat Simulator' is one of the most recent project I have started, and is acting as my introdction to the Godot game engine. It is a linear 2D experience where the player controls a pixelated goat on a mission up a trecherous mountain. Along the way, the goat will be interrupted by many hazards, causing it to lose its balance. The player must perform one of various QTEs to stop yourself from falling. But be careful! The more QTEs you fail, the harder it will be to hang on."
+            ItemLink="https://philosofox.itch.io/mountain-goat-simulator"
           />
         </div>
         <div className="flex items-start gap-x-20">
@@ -33,6 +35,7 @@ export default function GamePortfolio() {
             ItemImage={HDST}
             ItemDesc="'HOUSTON: Don't Stop Talking!' is a collaborative 3D Bomb-Defusal style game made in Godot for the 2025 Phil Alexander Game Jam at Miami University. It draws heavy inspiration from the game 'Keep Talking and Nobody Explodes', where players must collaborate across mediums to defuse a digital bomb before time runs out. 
             The theme for the jam was community, so I wanted to do something that forced people to work together, and test their natural leadership skills."
+            ItemLink="https://philosofox.itch.io/houston-dont-stop-talking"
           />
         </div>
       </div>

@@ -31,7 +31,7 @@ export default function HomePage() {
             className="size-20 sm:size-30 md:size-40 lg:size-65 xl:size-75 align-baseline static"
           />
           <h1 className="flex font-bold align-bottom text-orange-500 font-EmblemaOne">
-            Game + Web Development
+            Gameplay and Systems Developer
           </h1>
         </div>
       </div>
