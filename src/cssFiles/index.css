@@ -122,13 +122,33 @@ button:focus-visible {
   /* FunSiteColors */
   --color-windowBox: #fef1e7;
   --color-siteBg: #f4f1eF;
-  --color-siteGreen: #698c61;
   --color-alternateBgBlue: #dbeeff;
   --color-workTileBg: #fbe1cb;
   --color-darkModeWindow: #2C2C30;
   --color-darkModeGreen: #0B5E36;
   --color-darkModeOrange: #C45602;
   --color-darkModeTile: #414146;
+
+  --color-sandBackground: #f4f1eF;
+  --color-sandText: #698c61;
+  --color-sandAccent: #fbe1cb;
+  --color-sandAccentHover: #fce3d1;
+  --color-sandAccentActive: #fce3d1;
+
+  --color-desertSand: #ffcc99;
+  --color-desertText: #cc6511;
+  --color-desertAccent: #ffb366;
+  --color-desertAccentHover: #ffb366;
+  --color-desertAccentActive: #ffb366;
+  --color-siteGreen: #6a8d73;
+  --color-greenAccent: #698c61;
+  --color-deepTeal: #54735b;
+  --color-Evergreen: #1b3022;
+  --color-dustyOlive: #597a60;
+  --color-darkOlive: #414146;
+  --color-lightOlive: #698c61;
+  --color-sageGreen: #6a8d73;
+  --color-coolorsSage: #6Baa74;
 
   /* Fonts */
   --font-BethEllen: BethEllen, "sans-serif";
