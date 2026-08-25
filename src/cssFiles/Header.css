@@ -1,0 +1,7 @@
+.gradient-text, h1, h2, h3 { 
+    background: linear-gradient(to right, var(--color-warmWhite), var(--color-mainWhite)); 
+    -webkit-background-clip: text; 
+    background-clip: text; 
+    color: transparent; 
+    padding-bottom: 0.1em;
+} 

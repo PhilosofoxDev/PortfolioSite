@@ -5,35 +5,24 @@ import "../cssFiles/HomePage.css";
 
 export default function HomePage() {
   return (
-    <div className="noScroll flex flex-col justify-center bg-deepTeal items-center w-screen h-screen">
-      <div className="flex flex-col items-center self-center justify-center min-h-screen min-w-screen bg-desertSand">
-        {/* Video here in future ^^^ */}
-        {/* <iframe
-          width="105%"
-          height="100%"
-          src=""
-          title="YouTube video player"
-          frameborder="4"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-          className="demoReel flex absolute self-center"
-        ></iframe> */}
-        {/* remove zeros on 'outline' and 'bg' to add them back. 'bg' still needs some kind of opactiy */}
-        {/* <div className="flex flex-col sm:text-[1.5rem] md:text-[1.9rem] lg:text-[2.3rem] xl:text-5xl items-center gap-y-3 font-outline z-1 bg-stone-900/60 p-4 rounded-2xl pl-8 pr-8 outline-2 outline-orange-600">
-          <h1 className="flex font-bold align-bottom text-orange-500 text-shadow-stone-900">
-            Nathan Lomnicky
-          </h1>
-
-          <img
-            src={NLOrange}
-            alt="Logo"
-            className="size-20 sm:size-30 md:size-40 lg:size-65 xl:size-75 align-baseline static"
-          />
-          <h1 className="flex font-bold align-bottom text-orange-500 font-EmblemaOne">
-            Gameplay and Systems Developer
-          </h1>
-        </div> */}
+    <div className="noScroll flex flex-col justify-center items-center w-screen h-screen">
+      <div className="warmBGGradient flex flex-col items-center min-h-screen min-w-screen">
+        <p className="greenTextGradient font-Valve text-7xl flex mt-10 pb-6">
+          Projects
+        </p>
+        <div className="flex gap-x-10 text-black text-3xl">
+          <a href="#">
+            <p className="border-b-4">Games</p>
+          </a>
+          <p>&#x2022;</p>
+          <a href="#">
+            <p className="">Web Apps</p>
+          </a>
+          <p>&#x2022;</p>
+          <a href="#">
+            <p className="">Design</p>
+          </a>
+        </div>
       </div>
     </div>
   );

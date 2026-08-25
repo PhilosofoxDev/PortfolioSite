@@ -1,0 +1,14 @@
+a {
+    transition: transform 0.2s ease-in-out;
+}
+
+a:hover {
+    transform: scale(1.05);
+}
+
+.warmTextGradient {
+    background: linear-gradient(to left, var(--color-mainWhite), var(--color-warmWhite));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

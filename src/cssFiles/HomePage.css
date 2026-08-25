@@ -1,24 +1,10 @@
-.demoReel {
-    pointer-events: none;
+.warmBGGradient {
+    background: linear-gradient(to left, var(--color-mainWhite), var(--color-warmWhite));
 }
 
-.font-outline {
-    -webkit-text-stroke: 1px #1c1917;
-}
-
-.font-outline-sm {
-    -webkit-text-stroke: 1px #1c1917;
-
-}
-
-@font-face {
-    font-family: 'EmblemaOne';
-    src: url('../assets/fonts/EmblemaOne-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-h1 {
-    font-family: 'EmblemaOne', sans-serif;
+.greenTextGradient {
+    background: linear-gradient(to left, var(--color-mainGreen), var(--color-accentGreen));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
