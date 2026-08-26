@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState, useRef } from "react";
 import "tailwindcss";
 import Header from "./Header.jsx";
 import { Routes, Route } from "react-router-dom";
@@ -9,12 +9,17 @@ function App() {
   const [isShrunk, setIsShrunk] = useState(false);
   const scrollableBodyRef = useRef(null);
 
-  useEffect(() => {
+  const useEffect = () => {
     const handleScroll = () => {
       if (!scrollableBodyRef.current) return;
 
       const scrollTop = scrollableBodyRef.current.scrollTop;
-      setIsShrunk(scrollTop > 30);
+      if (scrollTop > 30) {
+        setIsShrunk(true);
+      } else {
+        setIsShrunk(false);
+        alert("not Scrolled");
+      }
     };
 
     const currentBody = scrollableBodyRef.current;
@@ -27,13 +32,17 @@ function App() {
         currentBody.removeEventListener("scroll", handleScroll);
       }
     };
-  });
+  };
 
   return (
-    <div className="flex flex-col justify-between min-h-screen align-top overscroll-x-none bg-mainWhite">
-      <Header className={` ${isShrunk ? "bg-accentGreen" : "bg-amber-600"}`} />{" "}
+    <div
+      onScroll={useEffect}
+      className="flex flex-col justify-between min-h-screen align-top overscroll-x-none bg-mainWhite"
+    >
+      <Header className={`${isShrunk ? "font-BOD" : "font-BOD"}`} />
       {/* Contains NavTabs */}
-      <Routes ref={scrollableBodyRef}>
+      <p className="text-black pl-10 text-2xl">{window.scrollY}</p>
+      <Routes>
         <Route path="/" element={<HomePage />} />
       </Routes>
       <Footer />
