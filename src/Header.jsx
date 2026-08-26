@@ -8,20 +8,15 @@ import "./cssFiles/Header.css";
 
 export default function Header() {
   return (
-    <div>
-      <div className="bg-linear-to-l from-mainGreen to-accentGreen align-top items-start overscroll-x-none w-screen border-b-4 border-black">
+    <div className="sticky top-0">
+      <div
+        className={`bg-linear-to-l from-mainGreen to-accentGreen align-top items-start overscroll-x-none w-screen border-b-4 border-black`}
+      >
         <header className="w-screen pb-5 pt-5 pr-10 pl-20 flex flex-col items-start justify-center">
           <div
             id="headerMain"
             className="Logo flex items-center justify-start w-screen"
           >
-            {/*<div id="Logo">
-            <img
-              src={DarkLogo}
-              alt="Logo"
-              className="size-40 rounded-full bg-black p-2"
-            />
-          </div> */}
             <div
               id="NameAndTitle"
               className="flex flex-col items-start justify-centers pt-4 font-bold"
@@ -47,7 +42,7 @@ export default function Header() {
               players.
             </h3>
           </div>
-          <div className="flex gap-x-10 pt-10">
+          <div className="flex gap-x-10 pt-4">
             <a
               href="https://www.linkedin.com/in/nathan-lomnicky/"
               target="_blank"
@@ -78,9 +73,9 @@ export default function Header() {
             </a>
           </div>
         </header>
-      </div>
-      <div className="flex bg-linear-to-l from-mainWhite to-warmWhite">
-        <NavigationTabs />
+        <div className="flex ">
+          <NavigationTabs />
+        </div>
       </div>
     </div>
   );

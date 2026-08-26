@@ -23,6 +23,9 @@ export default function HomePage() {
             <p className="">Design</p>
           </a>
         </div>
+        <div className="w-screen">
+          <hr className="bg-linear-to-r from-accentGreen to-mainGreen h-[0.3rem] mt-5 m-25 rounded-2xl" />
+        </div>
       </div>
     </div>
   );
