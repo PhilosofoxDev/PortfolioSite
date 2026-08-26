@@ -1,19 +1,19 @@
 import NLDark from "../assets/images/NLDark_NoBG.png";
 import NLLight from "../assets/images/NLLight_NoBG.png";
 import NLOrange from "../assets/images/NLOrange_NoBG.png";
-import "../cssFiles/HomePage.css";
+import "../cssFiles/ProjectsGamePAge.css";
 
-export default function HomePage() {
+export default function ProjectsGamePage() {
   return (
-    <div className="flex flex-col justify-center items-center w-screen h-screen">
+    <div className="flex flex-col justify-center items-center w-screen h-screen pb-10">
       <div className="warmBGGradient flex flex-col items-center min-h-screen min-w-screen">
-        <p className="greenTextGradient font-Valve text-7xl flex mt-10 pb-6">
+        <p className="greenTextGradient font-Valve text-7xl flex pb-6">
           Projects
         </p>
-        <div className="flex flex-col sticky top-20">
-          <div className="flex gap-x-10 text-black text-3xl items-center justify-center">
+        <div className="flex flex-col sticky top-5">
+          <div className="text-mainGreen flex gap-x-10 text-3xl items-center justify-center font-PatuaOne">
             <a href="#">
-              <p className="border-b-4">Games</p>
+              <p className="border-b-4 border-siteAccent">Games</p>
             </a>
             <p>&#x2022;</p>
             <a href="#">

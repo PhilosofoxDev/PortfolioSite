@@ -2,7 +2,7 @@ import NavTab from "./NavTab.jsx";
 
 export default function NavigationTabs() {
   return (
-    <div className="NavigationTabs flex font-EmblemaOne self-start sticky top-[3.1rem] mt-95">
+    <div className="flex font-EmblemaOne self-start sticky top-0 w-screen">
       <nav className="">
         <ul className="gap-x-0.5 max-md:hidden md:flex text-[1.2rem] text-white font-bold self-center">
           <li className="">

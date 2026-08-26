@@ -3,8 +3,17 @@
 }
 
 .greenTextGradient {
+    display: inline-flexbox;
     background: linear-gradient(to left, var(--color-mainGreen), var(--color-accentGreen));
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+a {
+    transition: all 0.2s ease-in-out;
+}
+
+a:hover {
+    transform: scale(1.2);
 }
