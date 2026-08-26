@@ -9,7 +9,7 @@ import "./cssFiles/Header.css";
 export default function Header() {
   return (
     <div
-      className={`bg-linear-to-l from-mainGreen to-accentGreen align-top items-start overscroll-x-none w-screen border-b-4 border-black`}
+      className={`absolute z-10 bg-linear-to-l from-mainGreen to-accentGreen align-top items-start overscroll-x-none w-screen border-b-4 border-black`}
     >
       <header className="w-screen pb-5 pt-5 pr-10 pl-20 flex flex-col items-start justify-center">
         <div
@@ -20,7 +20,7 @@ export default function Header() {
             id="NameAndTitle"
             className="flex flex-col items-start justify-centers pt-4 font-bold"
           >
-            <h1 className="gradient-text text-[5.25rem] tracking-wide">
+            <h1 className="gradient-text text-[5.25rem] tracking-wide font-Valve">
               Nathan Lomnicky
             </h1>
             <h2 className="gradient-text text-[2.75rem] font-PatuaOne tracking-wide pt-1">
@@ -71,9 +71,6 @@ export default function Header() {
           </a>
         </div>
       </header>
-      <div className="flex ">
-        <NavigationTabs />
-      </div>
     </div>
   );
 }

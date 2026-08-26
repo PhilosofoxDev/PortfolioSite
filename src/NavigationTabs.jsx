@@ -2,14 +2,11 @@ import NavTab from "./NavTab.jsx";
 
 export default function NavigationTabs() {
   return (
-    <div className="NavigationTabs bg-transparent flex font-EmblemaOne self-end sticky top-10">
+    <div className="NavigationTabs flex font-EmblemaOne self-start sticky top-[3.1rem] mt-95">
       <nav className="">
         <ul className="gap-x-0.5 max-md:hidden md:flex text-[1.2rem] text-white font-bold self-center">
           <li className="">
-            <NavTab tabName="Home" tabLink="/" />
-          </li>
-          <li className="">
-            <NavTab tabName="Portfolio" tabLink="/portfolio" />
+            <NavTab tabName="Projects" tabLink="/" />
           </li>
           <li className="">
             <NavTab tabName="Resume" tabLink="/resume" />

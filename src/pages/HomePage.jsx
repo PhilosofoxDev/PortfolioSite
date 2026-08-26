@@ -5,26 +5,28 @@ import "../cssFiles/HomePage.css";
 
 export default function HomePage() {
   return (
-    <div className="noScroll flex flex-col justify-center items-center w-screen h-screen">
+    <div className="flex flex-col justify-center items-center w-screen h-screen">
       <div className="warmBGGradient flex flex-col items-center min-h-screen min-w-screen">
         <p className="greenTextGradient font-Valve text-7xl flex mt-10 pb-6">
           Projects
         </p>
-        <div className="flex gap-x-10 text-black text-3xl">
-          <a href="#">
-            <p className="border-b-4">Games</p>
-          </a>
-          <p>&#x2022;</p>
-          <a href="#">
-            <p className="">Web Apps</p>
-          </a>
-          <p>&#x2022;</p>
-          <a href="#">
-            <p className="">Design</p>
-          </a>
-        </div>
-        <div className="w-screen">
-          <hr className="bg-linear-to-r from-accentGreen to-mainGreen h-[0.3rem] mt-5 m-25 rounded-2xl" />
+        <div className="flex flex-col sticky top-20">
+          <div className="flex gap-x-10 text-black text-3xl items-center justify-center">
+            <a href="#">
+              <p className="border-b-4">Games</p>
+            </a>
+            <p>&#x2022;</p>
+            <a href="#">
+              <p className="">Web Apps</p>
+            </a>
+            <p>&#x2022;</p>
+            <a href="#">
+              <p className="">Design</p>
+            </a>
+          </div>
+          <div className="w-screen sticky top-22">
+            <hr className="bg-linear-to-r from-accentGreen to-mainGreen h-[0.3rem] mt-5 m-25 rounded-2xl" />
+          </div>
         </div>
       </div>
     </div>
