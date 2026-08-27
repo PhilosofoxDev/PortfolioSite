@@ -1,4 +1,12 @@
-import NavTab from "./NavTab.jsx";
+import NavTab from "./Templates/NavTab.jsx";
+
+import {
+  HashRouter as Router,
+  Routes,
+  Route,
+  Link,
+  NavLink,
+} from "react-router-dom";
 
 export default function NavigationTabs() {
   return (
@@ -6,7 +14,7 @@ export default function NavigationTabs() {
       <nav className="">
         <ul className="gap-x-0.5 max-md:hidden md:flex text-[1.2rem] text-white font-bold self-center">
           <li className="">
-            <NavTab tabName="Projects" tabLink="/" />
+            <NavTab tabName="Projects" tabLink="" />
           </li>
           <li className="">
             <NavTab tabName="Resume" tabLink="/resume" />

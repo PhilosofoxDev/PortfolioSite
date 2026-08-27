@@ -1,0 +1,7 @@
+p {
+    display: inline-flexbox;
+    background: linear-gradient(to left, var(--color-warmWhite), var(--color-mainWhite));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

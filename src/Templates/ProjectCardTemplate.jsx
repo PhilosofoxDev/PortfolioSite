@@ -1,4 +1,4 @@
-import "../src/cssFiles/ProjectCardTemplate.css";
+import "../cssFiles/ProjectCardTemplate.css";
 
 export default function PortfolioCardTemplate({
   ProjectImageSrc,
@@ -15,12 +15,12 @@ export default function PortfolioCardTemplate({
           <h1 className="justify-self-center font-PatuaOne text-7xl greenTextGradient underline">
             {ProjectTitle}
           </h1>
-          <h2 className="ml-20 mt-4 gameDesc font-PatuaOne text-3xl whitespace-pre-line leading-none">
+          <h2 className="ml-20 mt-4 gameDesc font-PatuaOne text-2xl whitespace-pre-line leading-none">
             {ProjectDescription}
           </h2>
         </div>
       </div>
-      <hr className="bg-linear-to-r from-accentGreen to-mainGreen h-[0.3rem] mt-2 m-25 rounded-2xl" />
+      <hr className="bg-linear-to-r from-accentGreen to-mainGreen h-2 mt-12 mb-13 mr-30 ml-30 rounded-2xl" />
     </div>
   );
 }
