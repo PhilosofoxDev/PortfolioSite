@@ -1,7 +1,7 @@
 import "tailwindcss";
 import Header from "./Header.jsx";
 import NavigationTabs from "./NavigationTabs.jsx";
-import ProjectsGamePage from "./pages/ProjectsGamePage.jsx";
+import ProjectsPage from "./pages/ProjectsPage.jsx";
 
 import { Routes, Route } from "react-router-dom";
 import Footer from "./Footer.jsx";
@@ -12,9 +12,9 @@ function App() {
       <Header />
       <NavigationTabs />
       <Routes>
-        <Route path="/" element={<ProjectsGamePage />} />
+        <Route path="/" element={<ProjectsPage />} />
       </Routes>
-      <Footer />
+      {/*<Footer />*/}
     </div>
   );
 }

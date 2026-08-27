@@ -17,3 +17,7 @@ a {
 a:hover {
     transform: scale(1.2);
 }
+
+p {
+    color: #1A5832;
+}

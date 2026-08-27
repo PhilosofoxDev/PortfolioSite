@@ -11,28 +11,23 @@ export default function Header() {
     <div
       className={`static bg-linear-to-l from-mainGreen to-accentGreen align-top items-start overscroll-x-none w-screen border-b-4 border-black`}
     >
-      <header className="w-screen pb-5 pt-5 pr-10 pl-20 flex flex-col items-start justify-center">
+      <header className="w-screen pb-5 pt-5 pr-10 sm:pl-20 pl-10 flex flex-col">
         <div
-          id="headerMain"
-          className="Logo flex items-center justify-start w-screen"
+          id="NameAndTitle"
+          className="flex flex-col sm:items-start items-center justify-centers font-bold sm:pt-4"
         >
-          <div
-            id="NameAndTitle"
-            className="flex flex-col items-start justify-centers font-bold pt-4"
-          >
-            <h1 className="gradient-text text-[5.25rem] tracking-wide font-Valve">
-              Nathan Lomnicky
-            </h1>
-            <h2 className="gradient-text text-[2.75rem] font-PatuaOne tracking-wide pt-1">
-              Games and Systems Developer
-            </h2>
-          </div>
+          <h1 className="gradient-text 2xl:text-[6rem] xl:text-[5.25rem] lg:text-[4.5rem] md:text-[3.75rem] sm:text-[3rem] text-[2rem] tracking-wide font-Valve">
+            Nathan Lomnicky
+          </h1>
+          <h2 className="gradient-text 2xl:text-[3.35rem] xl:text-[2.75rem] lg:text-[2.25rem] md:text-[2rem] font-PatuaOne tracking-wide pt-1">
+            Games and Systems Developer
+          </h2>
         </div>
         <div
           id="headerDescription"
           className="flex flex-col items-start justify-center"
         >
-          <h3 className="text-xl mr-160 font-PatuaOne tracking-wide xl:mr-180 lg:mr-160 md:mr-60 wrap-anywhere">
+          <h3 className="2xl:text-2xl lg:text-xl md:text-lg font-PatuaOne tracking-wide xl:mr-[40%] lg:mr-[30%] md:mr-[20%] sm:mr-[10%] wrap-anywhere">
             Hey! I'm Nathan, a game programmer specialized in the technical
             systems that make experiences fun and engaging, particularly combat
             and player progression.
