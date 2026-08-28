@@ -8,21 +8,26 @@ export default function GameProjects() {
       <ProjectCardTemplate
         ProjectTitle="BEDMIME"
         ProjectImageSrc={BedmimeImage}
+        ProjectDescription={`Solo Development
+            
+            5 Working Months
+
+            Endless Final Stand Horror Game`}
+        ProjectToolsUsed={`Unity, Blender`}
+        ProjectNotes={`- My First Game Project to Learn Development
+          
+          - Designed a progressive aggro system to challenge players
+          
+          - Implemented a simple control scheme for low barrier of entry
+          
+          - Created unique 3D models to meet vision`}
+      />
+      <ProjectCardTemplate
+        ProjectTitle="Placeholder"
+        ProjectImageSrc="#"
         ProjectDescription={`Solo Developer
             
             2`}
-      />
-      <ProjectCardTemplate
-        ProjectTitle="BEDMIME"
-        ProjectImageSrc={BedmimeImage}
-        ProjectDescription={`Solo Developer
-            
-            2`}
-      />
-      <ProjectCardTemplate
-        ProjectTitle="BEDMIME"
-        ProjectImageSrc={BedmimeImage}
-        ProjectDescription={`Solo Developer`}
       />
     </div>
   );

@@ -61,6 +61,11 @@ button {
   src: url('../assets/fonts/PatuaOne-Regular.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'Arvo';
+  src: url('../assets/fonts/Arvo-Regular.ttf') format('truetype');
+}
+
 @theme {
   /* FINAL COLORS */
   --color-mainGreen: #1A5832;
@@ -75,4 +80,5 @@ button {
   --font-Valve: Valve, "sans-serif";
   --font-BOD: BOD, "sans-serif";
   --font-PatuaOne: PatuaOne, "sans-serif";
+  --font-Arvo: Arvo, "sans-serif";
 }
