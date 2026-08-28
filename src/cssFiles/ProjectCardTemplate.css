@@ -2,6 +2,11 @@
     color: darkgreen
 }
 
+.buttonText {
+    color: var(--color-warmWhite);
+    letter-spacing: .05rem;
+}
+
 h1, h2 {
     color: black;
 }

@@ -1,4 +1,5 @@
 import "../cssFiles/ProjectCardTemplate.css";
+import { Link } from "react-router-dom";
 
 // Add tools used to page that further describes project
 export default function PortfolioCardTemplate({
@@ -6,6 +7,9 @@ export default function PortfolioCardTemplate({
   ProjectTitle,
   ProjectDescription,
   ProjectNotes,
+  ProjectOverviewPath,
+  ProjectPublishedPlatform,
+  ProjectPlatformLink,
 }) {
   return (
     <div>
@@ -21,12 +25,27 @@ export default function PortfolioCardTemplate({
             {ProjectDescription}
           </h2>
           <hr className="m-15 mt-2 mb-0 bg-accentGreen h-0.5" />
-          <h2 className="ml-20 mt-4 gameDesc font-Arvo text-xl whitespace-pre-line leading-none">
+          <h2 className="ml-20 mt-5 gameDesc font-Arvo text-xl whitespace-pre-line leading-7">
             {ProjectNotes}
           </h2>
-          <div className="flex h-12 ml-20 mr-20 gap-x-10 mt-4 rounded-2xl">
-            <button className="projectCardButton w-[65%] rounded-lg" />
-            <button className="projectCardButton w-[35%] rounded-lg" />
+          <div className="flex h-12 ml-20 mr-20 gap-x-10 mt-6 rounded-2xl">
+            <Link
+              to={ProjectOverviewPath}
+              className="flex projectCardButton w-[65%] rounded-lg justify-center items-center"
+            >
+              <h1 className="text-xl font-PatuaOne buttonText">
+                Project Overview
+              </h1>
+            </Link>
+            <a
+              href={ProjectPlatformLink}
+              target="_blank"
+              className="flex projectCardButton w-[35%] rounded-lg justify-center items-center"
+            >
+              <h1 className="text-xl font-PatuaOne buttonText">
+                {ProjectTitle} on {ProjectPublishedPlatform}
+              </h1>
+            </a>
           </div>
         </div>
       </div>

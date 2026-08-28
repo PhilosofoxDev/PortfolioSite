@@ -2,6 +2,7 @@ import ProjectCardTemplate from "./Templates/ProjectCardTemplate.jsx";
 
 import BedmimeImage from "./assets/images/BedmimeTitle.png";
 
+// Add tools used to page that further describes project
 export default function GameProjects() {
   return (
     <div className="flex flex-col bg-linear-to-l to-warmWhite from-mainWhite">
@@ -21,6 +22,9 @@ export default function GameProjects() {
           - Implemented a simple control scheme for low barrier of entry
           
           - Created unique 3D models to meet vision`}
+        ProjectOverviewPath={`/bedmime`}
+        ProjectPublishedPlatform={`Itch.io`}
+        ProjectPlatformLink="https://philosofox.itch.io/bedmime"
       />
       <ProjectCardTemplate
         ProjectTitle="Placeholder"
@@ -28,6 +32,9 @@ export default function GameProjects() {
         ProjectDescription={`Solo Developer
             
             2`}
+        ProjectToolsUsed={`NaN`}
+        ProjectNotes={`Lorem Ipsum`}
+        ProjectPublishedPlatform={`Store`}
       />
     </div>
   );

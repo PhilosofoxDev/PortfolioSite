@@ -5,6 +5,8 @@ import ProjectsPage from "./pages/ProjectsPage.jsx";
 import ResumePage from "./pages/ResumePage.jsx";
 import ContactPage from "./pages/ContactPage.jsx";
 
+import BedmimeOverviewPage from "./pages/ProjectOverviews/BedmimeOverview.jsx";
+
 import { Routes, Route } from "react-router-dom";
 import Footer from "./Footer.jsx";
 
@@ -17,6 +19,7 @@ function App() {
         <Route path="/" element={<ProjectsPage />} />
         <Route path="/resume" element={<ResumePage />} />
         <Route path="/contact" element={<ContactPage />} />
+        <Route path="/bedmime" element={<BedmimeOverviewPage />} />
       </Routes>
       {/*<Footer />*/}
     </main>
