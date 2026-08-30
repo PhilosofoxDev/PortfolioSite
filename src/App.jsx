@@ -2,7 +2,7 @@ import "tailwindcss";
 import Header from "./Header.jsx";
 import NavigationTabs from "./NavigationTabs.jsx";
 import ProjectsPage from "./pages/GamesPage.jsx";
-import ResumePage from "./pages/DesignPage.jsx";
+import DesignPage from "./pages/DesignPage.jsx";
 import ContactPage from "./pages/ContactPage.jsx";
 
 import BedmimeOverviewPage from "./pages/ProjectOverviews/BedmimeOverview.jsx";
@@ -17,7 +17,7 @@ function App() {
       <NavigationTabs />
       <Routes>
         <Route path="/games" element={<ProjectsPage />} />
-        <Route path="/design" element={<ResumePage />} />
+        <Route path="/design" element={<DesignPage />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/bedmime" element={<BedmimeOverviewPage />} />
       </Routes>

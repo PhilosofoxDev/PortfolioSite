@@ -1,4 +1,4 @@
-import GameProjects from "../unused/GameProjects";
+import GameProjects from "../GameProjects";
 import ProjectsFooter from "../unused/ProjectsFooter";
 
 import NLDark from "../assets/images/NLDark_NoBG.png";
@@ -23,7 +23,6 @@ export default function ProjectsPage() {
         </div>
         <GameProjects />
       </div>
-      {/* <ProjectsFooter /> */}
     </div>
   );
 }
