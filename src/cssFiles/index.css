@@ -63,6 +63,11 @@ h1 {
   src: url('../assets/fonts/Arvo-Regular.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'ArvoBold';
+  src: url('../assets/fonts/Arvo-Bold.ttf') format('truetype');
+}
+
 @theme {
   /* FINAL COLORS */
   --color-mainGreen: #1A5832;
@@ -78,4 +83,5 @@ h1 {
   --font-BOD: BOD, "sans-serif";
   --font-PatuaOne: PatuaOne, "sans-serif";
   --font-Arvo: Arvo, "sans-serif";
+  --font-ArvoBold: ArvoBold, "sans-serif";
 }

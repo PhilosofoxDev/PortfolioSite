@@ -14,10 +14,10 @@ export default function NavigationTabs() {
       <nav className="">
         <ul className="gap-x-0.5 max-md:hidden md:flex text-[1.2rem] text-white font-bold self-center">
           <li className="">
-            <NavTab tabName="Projects" tabLink="" />
+            <NavTab tabName="Games" tabLink="/games" />
           </li>
           <li className="">
-            <NavTab tabName="Resume" tabLink="/resume" />
+            <NavTab tabName="Design" tabLink="/design" />
           </li>
           <li className="">
             <NavTab tabName="Contact" tabLink="/contact" />

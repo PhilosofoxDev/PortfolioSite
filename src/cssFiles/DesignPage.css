@@ -1,0 +1,36 @@
+.resumeName {
+    color: var(--color-accentGreen);
+    font-size: 4rem;
+    font-family: var(--font-Valve);
+}
+
+.resumeContactInfo {
+    color:var(--color-accentGreen);
+    font-size: 1.25rem;
+    font-family: var(--font-Arvo);
+}
+
+.resumeHeading {
+    color:var(--color-accentGreen);
+    font-size: 1.65rem;
+    font-family: var(--font-Arvo);
+}
+
+.resumeItem {
+    color:var(--color-accentGreen);
+    font-size: 2rem;
+    font-family: var(--font-Valve);
+}
+
+.resumeDescription {
+    color:var(--color-accentGreen);
+    font-size: 1.4rem;
+    font-family: var(--font-Arvo);
+}
+
+.resumeLineBreak {
+    background-color: var(--color-mainGreen);
+    height: 5px;
+    margin-bottom: 10px;
+    margin-top: 3px;
+}

@@ -7,7 +7,7 @@ export default function ContactPage() {
         </h1>
         <div className="flex flex-col">
           <div className="w-screen">
-            <hr className="bg-linear-to-r from-accentGreen to-mainGreen h-[.65rem] mt-2 m-25 mr-60 ml-60 rounded-2xl" />
+            <hr className="bg-linear-to-r from-accentGreen to-mainGreen h-[.65rem] mt-2 m-12 mr-60 ml-60 rounded-2xl" />
           </div>
         </div>
       </div>

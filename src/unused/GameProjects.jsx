@@ -1,6 +1,6 @@
-import ProjectCardTemplate from "./Templates/ProjectCardTemplate.jsx";
+import ProjectCardTemplate from "../Templates/ProjectCardTemplate.jsx";
 
-import BedmimeImage from "./assets/images/BedmimeTitle.png";
+import BedmimeImage from "../assets/images/BedmimeTitle.png";
 
 // Add tools used to page that further describes project
 export default function GameProjects() {
