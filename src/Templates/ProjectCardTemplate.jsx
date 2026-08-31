@@ -18,9 +18,11 @@ export default function PortfolioCardTemplate({
           <img src={ProjectImageSrc} className="ml-10"></img>
         </div>
         <div className="w-full">
-          <h1 className="justify-self-center font-PatuaOne text-7xl greenTextGradient underline">
-            {ProjectTitle}
-          </h1>
+          <Link to={ProjectOverviewPath}>
+            <h1 className="projectCardUnderline justify-self-center font-PatuaOne text-7xl greenTextGradient">
+              {ProjectTitle}
+            </h1>
+          </Link>
           <h2 className="ml-20 mt-4 gameDesc font-PatuaOne text-2xl whitespace-pre-line leading-none">
             {ProjectDescription}
           </h2>
@@ -28,10 +30,10 @@ export default function PortfolioCardTemplate({
           <h2 className="ml-20 mt-5 gameDesc font-Arvo text-xl whitespace-pre-line leading-7">
             {ProjectNotes}
           </h2>
-          <div className="flex h-12 ml-20 mr-20 gap-x-10 mt-6 rounded-2xl">
+          <div className="flex h-12 ml-20 mr-20 gap-x-4 mt-6 rounded-2xl">
             <Link
               to={ProjectOverviewPath}
-              className="flex projectCardButton w-[65%] rounded-lg justify-center items-center"
+              className="flex projectCardButton w-[60%] rounded-lg justify-center items-center"
             >
               <h1 className="text-xl font-PatuaOne buttonText">
                 Project Overview
@@ -40,7 +42,7 @@ export default function PortfolioCardTemplate({
             <a
               href={ProjectPlatformLink}
               target="_blank"
-              className="flex projectCardButton w-[35%] rounded-lg justify-center items-center"
+              className="flex projectCardButton w-[40%] rounded-lg justify-center items-center"
             >
               <h1 className="text-xl font-PatuaOne buttonText">
                 {ProjectTitle} on {ProjectPublishedPlatform}

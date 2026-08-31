@@ -19,9 +19,9 @@ export default function DesignProjects() {
           - Implemented a simple control scheme for low barrier of entry
           
           - Created unique 3D models to meet vision`}
-        ProjectOverviewPath={`/bedmime`}
-        ProjectPublishedPlatform={`Itch.io`}
-        ProjectPlatformLink="https://philosofox.itch.io/bedmime"
+        ProjectOverviewPath={`/blink`}
+        ProjectPublishedPlatform={`Info`}
+        ProjectPlatformLink="#"
       />
       <ProjectCardTemplate
         ProjectTitle="Placeholder"

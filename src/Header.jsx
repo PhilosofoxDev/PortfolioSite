@@ -20,7 +20,7 @@ export default function Header() {
             Nathan Lomnicky
           </h1>
           <h2 className="gradient-text 2xl:text-[3.35rem] xl:text-[2.75rem] lg:text-[2.25rem] md:text-[2rem] font-PatuaOne tracking-wide pt-1">
-            Games and Systems Developer
+            Game Systems and Mechanics Developer
           </h2>
         </div>
         <div

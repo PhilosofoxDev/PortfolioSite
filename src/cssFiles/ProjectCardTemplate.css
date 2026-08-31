@@ -11,12 +11,28 @@ h1, h2 {
     color: black;
 }
 
-.projectCardButton {
+.projectCardButton, .projectCardUnderline {
     background: linear-gradient(to left, var(--color-mainGreen), var(--color-accentGreen));
     transition: all ease-in-out 0.2s;
 }
 
-.projectCardButton:hover {
+.projectCardButton:hover, .projectCardUnderline:hover {
     transform: scale(1.05);
     cursor: pointer;
+}
+
+.projectCardUnderline:before {
+    content: "";
+    position: absolute;
+    bottom: 10px;
+    height: 6px;
+    width: 100%;
+    background: linear-gradient(to left, var(--color-mainGreen), var(--color-accentGreen));
+    border-radius: 50px;
+    transform: scaleX(0);
+    transition: transform 0.1s linear;
+}
+
+.projectCardUnderline:hover:before {
+    transform: scaleX(1);
 }
