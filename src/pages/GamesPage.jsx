@@ -1,33 +1,13 @@
 import GameProjects from "../GameProjects";
-import ProjectsFooter from "../unused/ProjectsFooter";
+import Page from "../Templates/Page.jsx";
 
-import NLDark from "../assets/images/NLDark_NoBG.png";
-import NLLight from "../assets/images/NLLight_NoBG.png";
-import NLOrange from "../assets/images/NLOrange_NoBG.png";
 import "../cssFiles/GamesPage.css";
 
-import { useRef, useEffect } from "react";
-import { useNavigationType } from "react-router-dom";
-
-export default function ProjectsPage() {
-  const targetRef = useRef(null);
-  const navigationType = useNavigationType();
-
-  useEffect(() => {
-    if (navigationType === "PUSH") {
-      targetRef.current?.scrollIntoView({
-        block: "start",
-        behavior: "smooth",
-      });
-    }
-  }, [navigationType]);
-
+export default function GamesPage() {
   return (
     <div className="flex flex-col justify-center items-center w-screen min-h-screen bg-linear-to-l to-warmWhite from-mainWhite">
-      <div
-        className="warmBGGradient flex flex-col items-center min-h-screen min-w-screen lg:mb-10 scroll-mt-38"
-        ref={targetRef}
-      >
+      <Page />
+      <div className="warmBGGradient flex flex-col items-center min-h-screen min-w-screen lg:mb-10 scroll-mt-38">
         <h1 className="greenTextGradient font-Valve xl:text-8xl lg:text-7xl md:text-6xl flex">
           Games
         </h1>

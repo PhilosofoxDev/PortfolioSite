@@ -1,0 +1,15 @@
+.greenTextGradient {
+    display: inline-flexbox;
+    background: linear-gradient(to left, var(--color-mainGreen), var(--color-accentGreen));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.whiteTextGradient {
+    display: inline-flexbox;
+    background: linear-gradient(to left, var(--color-mainWhite), var(--color-warmWhite));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
