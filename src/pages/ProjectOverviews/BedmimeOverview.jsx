@@ -3,6 +3,8 @@ import OverviewTemplate from "../../Templates/OverviewPageStartingTemplate";
 import GreenSection from "../../Templates/GreenOverviewSection";
 import WhiteSection from "../../Templates/WhiteOverviewSection";
 
+import BedmimeImage from "../../assets/images/BedmimeTitle.png";
+
 export default function BedmimeOverview() {
   return (
     <div>
@@ -15,11 +17,29 @@ export default function BedmimeOverview() {
         }
       />
       <WhiteSection
-        ContentLeft={<div></div>}
-        ContentRight={<div></div>}
-        Heading={``}
+        ContentLeft={
+          <div>
+            <img src={BedmimeImage} alt="Bedmime" className="w-100 h-auto" />
+          </div>
+        }
+        ContentRight={
+          <div>
+            <img src={BedmimeImage} alt="Bedmime" className="w-100 h-auto" />
+          </div>
+        }
       />
-      <GreenSection />
+      <GreenSection
+        ContentLeft={
+          <div>
+            <img src={BedmimeImage} alt="Bedmime" className="w-100 h-auto" />
+          </div>
+        }
+        ContentRight={
+          <div>
+            <img src={"#"} alt="Bedmime" className="w-100 h-auto" />
+          </div>
+        }
+      />
     </div>
   );
 }

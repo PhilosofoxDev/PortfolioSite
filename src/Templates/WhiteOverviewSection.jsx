@@ -1,10 +1,9 @@
 import "../cssFiles/OverviewSections.css";
 
-export default function WhiteSection({ ContentLeft, ContentRight, Heading }) {
+export default function WhiteSection({ ContentLeft, ContentRight }) {
   return (
-    <div className="flex flex-col justify-center items-center lg:min-h-100 min-w-screen bg-linear-to-l from-mainWhite to-warmWhite font-Arvo greenTextGradient">
-      {Heading}
-      <div className=" felx flex-2">
+    <div className="lg:min-h-100 bg-linear-to-l from-mainWhite to-warmWhite font-Arvo greenTextGradient">
+      <div className="flex justify-around flex-2 min-w-screen">
         {ContentLeft}
         {ContentRight}
       </div>

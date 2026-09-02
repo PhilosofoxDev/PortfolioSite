@@ -1,10 +1,9 @@
 import "../cssFiles/OverviewSections.css";
 
-export default function GreenSection({ ContentLeft, ContentRight, Heading }) {
+export default function GreenSection({ ContentLeft, ContentRight }) {
   return (
-    <div className="flex flex-col justify-center items-center lg:min-h-100 min-w-screen bg-linear-to-r from-mainGreen to-accentGreen font-Arvo">
-      {Heading}
-      <div className=" felx flex-2">
+    <div className="lg:min-h-100 bg-linear-to-l from-mainGreen to-accentGreen font-Arvo greenTextGradient">
+      <div className="flex justify-around flex-2 min-w-screen">
         {ContentLeft}
         {ContentRight}
       </div>
