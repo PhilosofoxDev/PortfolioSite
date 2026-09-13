@@ -8,14 +8,17 @@ export default function PortfolioCardTemplate({
   ProjectDescription,
   ProjectNotes,
   ProjectOverviewPath,
-  ProjectPublishedPlatform,
+  ProjectPlatformTitle,
   ProjectPlatformLink,
 }) {
   return (
     <div>
       <div className="flex flex-2 justify-evenly w-screen text-mainGreen">
-        <div className="w-full">
-          <img src={ProjectImageSrc} className="ml-10"></img>
+        <div className="w-full items-center flex">
+          <img
+            src={ProjectImageSrc}
+            className="pl-20 w-full justify-center items-center"
+          ></img>
         </div>
         <div className="w-full">
           <Link to={ProjectOverviewPath}>
@@ -45,7 +48,7 @@ export default function PortfolioCardTemplate({
               className="flex projectCardButton w-[40%] rounded-lg justify-center items-center"
             >
               <h1 className="text-xl font-PatuaOne buttonText">
-                {ProjectTitle} on {ProjectPublishedPlatform}
+                {ProjectPlatformTitle}
               </h1>
             </a>
           </div>

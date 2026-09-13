@@ -20,7 +20,7 @@ export default function Header() {
             Nathan Lomnicky
           </h1>
           <h2 className="gradient-text 2xl:text-[3.35rem] xl:text-[2.75rem] lg:text-[2.25rem] md:text-[2rem] font-PatuaOne tracking-wide pt-1">
-            Game Systems and Mechanics Developer
+            Gameplay Engineer and Technical Designer
           </h2>
         </div>
         <div
@@ -28,9 +28,9 @@ export default function Header() {
           className="flex flex-col items-start justify-center"
         >
           <h3 className="2xl:text-2xl lg:text-xl md:text-lg font-PatuaOne tracking-wide xl:mr-[40%] lg:mr-[30%] md:mr-[20%] sm:mr-[10%] wrap-anywhere">
-            Hey! I'm Nathan, a game programmer specialized in the technical
-            systems that make experiences fun and engaging, particularly combat
-            and player progression.
+            Hey! I'm Nathan, a programmer specialized in the underlying gameplay
+            systems that make experiences fun and engaging, particularly in
+            combat and player progression.
             <br />
             <br />I enjoy making satisfying and progressive systems for players.
           </h3>

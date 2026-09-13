@@ -1,11 +1,13 @@
 import ProjectCardTemplate from "./Templates/ProjectCardTemplate";
 
+import BlinkEyeDemo from "./assets/images/eyeTest_BLINK26.gif";
+
 export default function DesignProjects() {
   return (
     <div className="flex flex-col bg-linear-to-l to-warmWhite from-mainWhite">
       <ProjectCardTemplate
         ProjectTitle="BLINK Festival 2026"
-        ProjectImageSrc={"#"}
+        ProjectImageSrc={BlinkEyeDemo}
         ProjectDescription={`Solo Development
             
             5 Working Months
@@ -20,8 +22,8 @@ export default function DesignProjects() {
           
           - Created unique 3D models to meet vision`}
         ProjectOverviewPath={`/blink`}
-        ProjectPublishedPlatform={`Info`}
-        ProjectPlatformLink="#"
+        ProjectPlatformTitle={`BLINK Festival`}
+        ProjectPlatformLink="https://www.blinkcincinnati.com/"
       />
       <ProjectCardTemplate
         ProjectTitle="Placeholder"

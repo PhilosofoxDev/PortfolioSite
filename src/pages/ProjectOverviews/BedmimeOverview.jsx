@@ -24,7 +24,7 @@ export default function BedmimeOverview() {
         }
         ContentRight={
           <div>
-            <img src={BedmimeImage} alt="Bedmime" className="w-100 h-auto" />
+            <img src={BedmimeImage} alt="Bedmime" className="w-auto h-auto" />
           </div>
         }
       />
