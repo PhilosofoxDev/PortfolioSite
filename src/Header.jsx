@@ -20,7 +20,7 @@ export default function Header() {
             Nathan Lomnicky
           </h1>
           <h2 className="gradient-text 2xl:text-[3.35rem] xl:text-[2.75rem] lg:text-[2.25rem] md:text-[2rem] font-PatuaOne tracking-wide pt-1">
-            Gameplay Engineer and Technical Designer
+            Gameplay Engineer and Web Developer
           </h2>
         </div>
         <div
@@ -32,7 +32,9 @@ export default function Header() {
             systems that make experiences fun and engaging, particularly in
             combat and player progression.
             <br />
-            <br />I enjoy making satisfying and progressive systems for players.
+            <br />
+            When I'm not making games, I enjoy building websites and other web
+            applications.
           </h3>
         </div>
         <div className="flex gap-x-10 pt-4">

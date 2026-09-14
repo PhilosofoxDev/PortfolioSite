@@ -8,12 +8,12 @@ export default function DesignProjects() {
       <ProjectCardTemplate
         ProjectTitle="BLINK Festival 2026"
         ProjectImageSrc={BlinkEyeDemo}
-        ProjectDescription={`Solo Development
+        ProjectDescription={`Collaborative Interdisciplinary Project
             
-            5 Working Months
+            1 Month Sprint
 
-            Endless Final Stand Horror Game`}
-        ProjectToolsUsed={`Unity, Blender`}
+            Interactive Art Installation for 2 Million+ Visitors`}
+        ProjectToolsUsed={`Blender, TouchDesigner`}
         ProjectNotes={`- My First Game Project to Learn Development
           
           - Designed a progressive aggro system to challenge players

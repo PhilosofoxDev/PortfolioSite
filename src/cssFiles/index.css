@@ -8,14 +8,13 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #292524;
+  background-color: var(--color-mainGreen);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 
 body {
   margin: 0;
@@ -27,6 +26,33 @@ body {
 
 h1 {
   line-height: 1.1;
+}
+
+.cardImage {
+  margin-left: 2rem;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  border: 0.75rem, solid, var(--color-mainGreen);
+  border-radius: 2rem;
+}
+
+.greenBgOverviewImage {
+  margin-right: 2rem;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  border: 0.75rem, solid, var(--color-warmWhite);
+  border-radius: 2rem;
+}
+
+.whiteBgOverviewImage {
+  margin-left: 1rem;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  border: 0.75rem, solid, var(--color-mainGreen);
+  border-radius: 2rem;
 }
 
 @media (prefers-color-scheme: light) {

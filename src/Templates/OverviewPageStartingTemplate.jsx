@@ -4,7 +4,7 @@ export default function OverviewTemplate({ Title }) {
     <div className="flex flex-col justify-center items-center min-w-screen bg-linear-to-l font-Arvo greenTextGradient">
       {Title}
       <div className="w-screen">
-        <hr className="bg-linear-to-r from-accentGreen to-mainGreen h-[.65rem] mb-12 mr-70 ml-70 rounded-2xl" />
+        <hr className="bg-linear-to-r from-accentGreen to-mainGreen h-[.65rem] mb-0 mr-70 ml-70 rounded-2xl" />
       </div>
     </div>
   );

@@ -11,33 +11,30 @@ export default function BedmimeOverview() {
       <Page />
       <OverviewTemplate
         Title={
-          <h5 className="text-black font-Valve xl:text-8xl lg:text-7xl md:text-6xl flex">
+          <h5 className=" font-Valve xl:text-8xl lg:text-7xl md:text-6xl flex">
             Bedmime
           </h5>
         }
       />
       <WhiteSection
         ContentLeft={
-          <div>
-            <img src={BedmimeImage} alt="Bedmime" className="w-100 h-auto" />
-          </div>
+          <img
+            src={BedmimeImage}
+            alt="Bedmime"
+            className="whiteBgOverviewImage"
+          />
         }
-        ContentRight={
-          <div>
-            <img src={BedmimeImage} alt="Bedmime" className="w-auto h-auto" />
-          </div>
-        }
+        ContentRight={<p className=" font-PatuaOne text-4xl mb-4">Overview</p>}
       />
       <GreenSection
-        ContentLeft={
-          <div>
-            <img src={BedmimeImage} alt="Bedmime" className="w-100 h-auto" />
-          </div>
-        }
+        className="greenBackground"
+        ContentLeft={<p className="font-PatuaOne text-4xl mb-4">Description</p>}
         ContentRight={
-          <div>
-            <img src={"#"} alt="Bedmime" className="w-100 h-auto" />
-          </div>
+          <img
+            src={BedmimeImage}
+            alt="Bedmime"
+            className="greenBgOverviewImage"
+          />
         }
       />
     </div>

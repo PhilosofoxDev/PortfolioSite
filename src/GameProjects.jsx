@@ -23,7 +23,7 @@ export default function GameProjects() {
           
           - Created unique 3D models to meet vision`}
         ProjectOverviewPath={`/bedmime`}
-        ProjectPublishedPlatform={`Itch.io`}
+        ProjectPlatformTitle={`BEDMIME on Itch.io`}
         ProjectPlatformLink="https://philosofox.itch.io/bedmime"
       />
       <ProjectCardTemplate

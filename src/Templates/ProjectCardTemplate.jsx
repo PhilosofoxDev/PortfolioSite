@@ -3,9 +3,10 @@ import { Link } from "react-router-dom";
 
 // Add tools used to page that further describes project
 export default function PortfolioCardTemplate({
-  ProjectImageSrc,
+  ProjectImageSrc, // Image source for the project card (First thing we want employers to see for this project)
   ProjectTitle,
   ProjectDescription,
+  ProjectToolsUsed, // Tools separated by commas
   ProjectNotes,
   ProjectOverviewPath,
   ProjectPlatformTitle,
@@ -15,12 +16,9 @@ export default function PortfolioCardTemplate({
     <div>
       <div className="flex flex-2 justify-evenly w-screen text-mainGreen">
         <div className="w-full items-center flex">
-          <img
-            src={ProjectImageSrc}
-            className="pl-20 w-full justify-center items-center"
-          ></img>
+          <img src={ProjectImageSrc} className="cardImage"></img>
         </div>
-        <div className="w-full">
+        <div className="w-full items-center">
           <Link to={ProjectOverviewPath}>
             <h1 className="projectCardUnderline justify-self-center font-PatuaOne text-7xl greenTextGradient">
               {ProjectTitle}
@@ -28,6 +26,9 @@ export default function PortfolioCardTemplate({
           </Link>
           <h2 className="ml-20 mt-4 gameDesc font-PatuaOne text-2xl whitespace-pre-line leading-none">
             {ProjectDescription}
+          </h2>
+          <h2 className="ml-20 mt-4 gameDesc font-PatuaOne text-2xl whitespace-pre-line leading-none">
+            {`Tools Used: ${ProjectToolsUsed}`}
           </h2>
           <hr className="m-15 mt-2 mb-0 bg-accentGreen h-0.5" />
           <h2 className="ml-20 mt-5 gameDesc font-Arvo text-xl whitespace-pre-line leading-7">
