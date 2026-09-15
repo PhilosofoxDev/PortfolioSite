@@ -14,15 +14,14 @@ export default function DesignProjects() {
 
             Interactive Art Installation for 2 Million+ Visitors`}
         ProjectToolsUsed={`Blender, TouchDesigner`}
-        ProjectNotes={`- My First Game Project to Learn Development
+        ProjectNotes={`- Worked with team of 20+ designers and creatives
           
-          - Designed a progressive aggro system to challenge players
+          - Lead focused team of 7 for all digital rendering project needs
           
-          - Implemented a simple control scheme for low barrier of entry
+          - Personally worked in Blender to create stylized 3D assets for installation
           
-          - Created unique 3D models to meet vision`}
+          - Took consistent and active feedback on a highly iterative project`}
         ProjectOverviewPath={`/blink`}
-        ProjectPlatformTitle={`BLINK Festival`}
         ProjectPlatformLink="https://www.blinkcincinnati.com/"
       />
       <ProjectCardTemplate

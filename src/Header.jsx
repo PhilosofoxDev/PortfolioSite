@@ -60,7 +60,7 @@ export default function Header() {
             <img src={insta} alt="instagram link" className="size-12" />
           </a>
           <a
-            href="mailto:nathanlomnicky@gmail.com/"
+            href="mailto:nathanlomnicky@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
           >

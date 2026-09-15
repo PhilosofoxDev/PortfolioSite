@@ -25,10 +25,7 @@ export default function PortfolioCardTemplate({
             </h1>
           </Link>
           <h2 className="ml-20 mt-4 gameDesc font-PatuaOne text-2xl whitespace-pre-line leading-none">
-            {ProjectDescription}
-          </h2>
-          <h2 className="ml-20 mt-4 gameDesc font-PatuaOne text-2xl whitespace-pre-line leading-none">
-            {`Tools Used: ${ProjectToolsUsed}`}
+            {`${ProjectDescription} ${ProjectToolsUsed ? `\n\nTools Used: ${ProjectToolsUsed}` : ""}`}
           </h2>
           <hr className="m-15 mt-2 mb-0 bg-accentGreen h-0.5" />
           <h2 className="ml-20 mt-5 gameDesc font-Arvo text-xl whitespace-pre-line leading-7">
@@ -49,7 +46,7 @@ export default function PortfolioCardTemplate({
               className="flex projectCardButton w-[40%] rounded-lg justify-center items-center"
             >
               <h1 className="text-xl font-PatuaOne buttonText">
-                {ProjectPlatformTitle}
+                {`${ProjectPlatformTitle ? `${ProjectTitle} on ${ProjectPlatformTitle}` : `${ProjectTitle} Website`}`}
               </h1>
             </a>
           </div>

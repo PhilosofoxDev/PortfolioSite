@@ -28,6 +28,34 @@ h1 {
   line-height: 1.1;
 }
 
+.overviewTextHeaderGreen {
+  font-family: var(--font-PatuaOne);
+  font-size: 3.2rem;
+  line-height: 1.5;
+  color: var(--color-mainGreen);
+}
+
+.overviewTextBodyGreen {
+  font-family: var(--font-Arvo);
+  font-size: 1.4rem;
+  line-height: 1.5;
+  color: var(--color-mainGreen);
+}
+
+.overviewTextHeaderWhite{
+  font-family: var(--font-PatuaOne);
+  font-size: 3.7rem;
+  line-height: 1.5;
+  color: var(--color-warmWhite);
+}
+
+.overviewTextBodyWhite {
+  font-family: var(--font-Arvo);
+  font-size: 1.4rem;
+  line-height: 1.5;
+  color: var(--color-warmWhite);
+}
+
 .cardImage {
   margin-left: 2rem;
   width: 100%;
@@ -94,6 +122,11 @@ h1 {
   src: url('../assets/fonts/Arvo-Bold.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'ArvoItalic';
+  src: url('../assets/fonts/Arvo-Italic.ttf') format('truetype');
+}
+
 @theme {
   /* FINAL COLORS */
   --color-mainGreen: #1A5832;
@@ -110,4 +143,5 @@ h1 {
   --font-PatuaOne: PatuaOne, "sans-serif";
   --font-Arvo: Arvo, "sans-serif";
   --font-ArvoBold: ArvoBold, "sans-serif";
+  --font-ArvoItalic: ArvoItalic, "sans-serif";
 }

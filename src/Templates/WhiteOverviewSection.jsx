@@ -5,12 +5,8 @@ export default function WhiteSection({ ContentLeft, ContentRight }) {
     <div className="bg-linear-to-l from-mainWhite to-warmWhite">
       <div className="flex flex-2 justify-evenly w-screen font-Arvo greenTextGradient pb-10">
         <div className="flex items-center flex-2 ml-5 mr-5 pt-10">
-          <div className="w-full justify-items-center flex items-center justify-center">
-            {ContentLeft}
-          </div>
-          <div className="w-full justify-items-center flex items-center justify-center">
-            {ContentRight}
-          </div>
+          <div className="w-full h-full flex">{ContentLeft}</div>
+          <div className="w-full h-full flex">{ContentRight}</div>
         </div>
       </div>
     </div>
