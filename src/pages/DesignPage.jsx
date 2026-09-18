@@ -12,7 +12,7 @@ export default function DesignPage() {
           Design
         </h1>
         <h2 className="greenTextGradient font-Valve xl:text-2xl lg:text:lg md:text-md flex mb-2">
-          You can find all of my Web Dev/UX Design projects here.
+          You can find my Web Dev/UX Design projects here.
         </h2>
         <div className="flex flex-col">
           <div className="w-screen">

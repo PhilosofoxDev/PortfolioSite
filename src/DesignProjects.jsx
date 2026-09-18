@@ -10,7 +10,7 @@ export default function DesignProjects() {
         ProjectImageSrc={BlinkEyeDemo}
         ProjectDescription={`Collaborative Interdisciplinary Project
             
-            1 Month Sprint
+            1 Month Sprint (Sep 2026)
 
             Interactive Art Installation for 2 Million+ Visitors`}
         ProjectToolsUsed={`Blender, TouchDesigner`}
@@ -18,21 +18,31 @@ export default function DesignProjects() {
           
           - Lead focused team of 7 for all digital rendering project needs
           
-          - Personally worked in Blender to create stylized 3D assets for installation
+          - Worked w/ Blender to create stylized 3D assets for installation
           
           - Took consistent and active feedback on a highly iterative project`}
         ProjectOverviewPath={`/blink`}
         ProjectPlatformLink="https://www.blinkcincinnati.com/"
       />
       <ProjectCardTemplate
-        ProjectTitle="Placeholder"
+        ProjectTitle="London Interactive"
         ProjectImageSrc="#"
-        ProjectDescription={`Solo Developer
+        ProjectDescription={`Interdisplinary Ethical Design Project
             
-            2`}
-        ProjectToolsUsed={`NaN`}
-        ProjectNotes={`Lorem Ipsum`}
-        ProjectPublishedPlatform={`Store`}
+            1 Month Study Abroad (Jul - Aug 2026)
+            
+            Design Affordable and Gameified Rehab Technologies`}
+        ProjectToolsUsed={`Arduino, Godot`}
+        ProjectNotes={`- Client work with Neuro-Rehab clinic in Richmond, England
+          
+          - Researched and developed affordable rehab methods to keep patients engaged
+          
+          - Worked with specialized team of 4 to aid in patient's balance recovery
+          
+          - Explored international cultures and the principles of ethical design`}
+        ProjectOverviewPath={`#`}
+        ProjectPlatformTitle={``}
+        ProjectPlatformLink={`#`}
       />
     </div>
   );

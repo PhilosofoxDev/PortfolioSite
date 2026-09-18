@@ -12,7 +12,7 @@ export default function GamesPage() {
           Games
         </h1>
         <h2 className="greenTextGradient font-Valve xl:text-2xl lg:text:lg md:text-md flex mb-2">
-          You can find all of my Game Development projects here.
+          You can find my Game Development projects here.
         </h2>
         <div className="flex flex-col">
           <div className="w-screen">

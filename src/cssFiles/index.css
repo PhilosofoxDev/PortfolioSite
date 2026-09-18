@@ -30,29 +30,23 @@ h1 {
 
 .overviewTextHeaderGreen {
   font-family: var(--font-PatuaOne);
-  font-size: 3.2rem;
-  line-height: 1.5;
   color: var(--color-mainGreen);
+  margin-bottom: 1rem;
 }
 
 .overviewTextBodyGreen {
   font-family: var(--font-Arvo);
-  font-size: 1.4rem;
-  line-height: 1.5;
   color: var(--color-mainGreen);
 }
 
 .overviewTextHeaderWhite{
   font-family: var(--font-PatuaOne);
-  font-size: 3.7rem;
-  line-height: 1.5;
   color: var(--color-warmWhite);
+  margin-bottom: 1rem;
 }
 
 .overviewTextBodyWhite {
   font-family: var(--font-Arvo);
-  font-size: 1.4rem;
-  line-height: 1.5;
   color: var(--color-warmWhite);
 }
 
@@ -67,7 +61,8 @@ h1 {
 
 .greenBgOverviewImage {
   margin-right: 2rem;
-  width: 100%;
+  max-width: 95%;
+  max-height: fit-content;
   justify-content: center;
   align-items: center;
   border: 0.75rem, solid, var(--color-warmWhite);
@@ -76,7 +71,8 @@ h1 {
 
 .whiteBgOverviewImage {
   margin-left: 1rem;
-  width: 100%;
+  max-width: 95%;
+  max-height: fit-content;
   justify-content: center;
   align-items: center;
   border: 0.75rem, solid, var(--color-mainGreen);

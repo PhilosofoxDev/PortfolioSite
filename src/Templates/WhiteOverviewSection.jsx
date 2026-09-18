@@ -3,8 +3,8 @@ import "../cssFiles/OverviewSections.css";
 export default function WhiteSection({ ContentLeft, ContentRight }) {
   return (
     <div className="bg-linear-to-l from-mainWhite to-warmWhite">
-      <div className="flex flex-2 justify-evenly w-screen font-Arvo greenTextGradient pb-10">
-        <div className="flex items-center flex-2 ml-5 mr-5 pt-10">
+      <div className="flex flex-2 justify-evenly w-screen font-Arvo greenTextGradient pb-5">
+        <div className="flex items-center flex-2 ml-5 mr-5 pt-5">
           <div className="w-full h-full flex">{ContentLeft}</div>
           <div className="w-full h-full flex">{ContentRight}</div>
         </div>

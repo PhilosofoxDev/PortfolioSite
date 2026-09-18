@@ -28,7 +28,7 @@ export default function PortfolioCardTemplate({
             {`${ProjectDescription} ${ProjectToolsUsed ? `\n\nTools Used: ${ProjectToolsUsed}` : ""}`}
           </h2>
           <hr className="m-15 mt-2 mb-0 bg-accentGreen h-0.5" />
-          <h2 className="ml-20 mt-5 gameDesc font-Arvo text-xl whitespace-pre-line leading-7">
+          <h2 className="ml-20 mt-5 gameDesc font-Arvo text-xl whitespace-pre-line leading-6 mr-10">
             {ProjectNotes}
           </h2>
           <div className="flex h-12 ml-20 mr-20 gap-x-4 mt-6 rounded-2xl">
@@ -45,7 +45,7 @@ export default function PortfolioCardTemplate({
               target="_blank"
               className="flex projectCardButton w-[40%] rounded-lg justify-center items-center"
             >
-              <h1 className="text-xl font-PatuaOne buttonText">
+              <h1 className="text-lg font-PatuaOne buttonText text-center">
                 {`${ProjectPlatformTitle ? `${ProjectTitle} on ${ProjectPlatformTitle}` : `${ProjectTitle} Website`}`}
               </h1>
             </a>
