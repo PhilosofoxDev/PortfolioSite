@@ -7,7 +7,7 @@ import ContactPage from "./pages/ContactPage.jsx";
 
 import BedmimeOverviewPage from "./pages/ProjectOverviews/BedmimeOverview.jsx";
 
-import { Routes, Route, BrowserRouter } from "react-router-dom";
+import { Routes, Route, HashRouter } from "react-router-dom";
 import Footer from "./Footer.jsx";
 
 function App() {
@@ -15,15 +15,13 @@ function App() {
     <main className="flex flex-col justify-between min-h-screen align-top overscroll-x-none bg-linear-to-l to-warmWhite from-mainWhite">
       <Header />
       <NavigationTabs />
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<GamesPage />} />
-          <Route path="/games" element={<GamesPage />} />
-          <Route path="/design" element={<DesignPage />} />
-          <Route path="/contact" element={<ContactPage />} />
-          <Route path="/bedmime" element={<BedmimeOverviewPage />} />
-        </Routes>
-      </BrowserRouter>
+      <Routes>
+        <Route path="/" element={<GamesPage />} />
+        <Route path="/games" element={<GamesPage />} />
+        <Route path="/design" element={<DesignPage />} />
+        <Route path="/contact" element={<ContactPage />} />
+        <Route path="/bedmime" element={<BedmimeOverviewPage />} />
+      </Routes>
       {/*<Footer />*/}
     </main>
   );
