@@ -1,6 +1,7 @@
 import ProjectCardTemplate from "./Templates/ProjectCardTemplate.jsx";
 
 import BedmimeImage from "./assets/images/BedmimeTitle.png";
+import ProjectOVERDRAFT from "./assets/images/ProjectOverdraftPitchSlide.png";
 
 // Add tools used to page that further describes project
 export default function GameProjects() {
@@ -8,7 +9,7 @@ export default function GameProjects() {
     <div className="flex flex-col bg-linear-to-l to-warmWhite from-mainWhite">
       <ProjectCardTemplate
         ProjectTitle="Project OVERDRAFT"
-        ProjectImageSrc="#"
+        ProjectImageSrc={ProjectOVERDRAFT}
         ProjectDescription={`Producer, Lead Systems Developer
             
             4 Month Indie Development (Aug - Dec 2026)

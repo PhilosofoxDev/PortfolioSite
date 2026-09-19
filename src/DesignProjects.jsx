@@ -1,6 +1,7 @@
 import ProjectCardTemplate from "./Templates/ProjectCardTemplate";
 
 import BlinkEyeDemo from "./assets/images/eyeTest_BLINK26.gif";
+import LDIGroupPhoto from "./assets/images/FinalLondonGroupPhoto.JPG";
 
 export default function DesignProjects() {
   return (
@@ -26,7 +27,7 @@ export default function DesignProjects() {
       />
       <ProjectCardTemplate
         ProjectTitle="London Interactive"
-        ProjectImageSrc="#"
+        ProjectImageSrc={LDIGroupPhoto}
         ProjectDescription={`Interdisplinary Ethical Design Project
             
             1 Month Study Abroad (Jul - Aug 2026)

@@ -14,6 +14,7 @@ function App() {
   return (
     <main className="flex flex-col justify-between min-h-screen align-top overscroll-x-none bg-linear-to-l to-warmWhite from-mainWhite">
       <Header />
+      {/*IF ROUTING BREAKS AGAIN, WRAP THIS IN HASHROUTER*/}
       <NavigationTabs />
       <Routes>
         <Route path="/" element={<GamesPage />} />
