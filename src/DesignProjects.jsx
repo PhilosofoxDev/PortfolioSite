@@ -22,7 +22,7 @@ export default function DesignProjects() {
           - Worked w/ Blender to create stylized 3D assets for installation
           
           - Took consistent and active feedback on a highly iterative project`}
-        ProjectOverviewPath={`/blink`}
+        ProjectOverviewPath={`/design/blink`}
         ProjectPlatformLink="https://www.blinkcincinnati.com/"
       />
       <ProjectCardTemplate
@@ -41,7 +41,7 @@ export default function DesignProjects() {
           - Worked with specialized team of 4 to aid in patient's balance recovery
           
           - Explored international cultures and the principles of ethical design`}
-        ProjectOverviewPath={`#`}
+        ProjectOverviewPath={`/design/ldi`}
         ProjectPlatformTitle={``}
         ProjectPlatformLink={`#`}
       />

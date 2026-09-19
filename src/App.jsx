@@ -6,6 +6,9 @@ import DesignPage from "./pages/DesignPage.jsx";
 import ContactPage from "./pages/ContactPage.jsx";
 
 import BedmimeOverviewPage from "./pages/ProjectOverviews/BedmimeOverview.jsx";
+import BlinkOverview from "./pages/ProjectOverviews/BlinkOverview.jsx";
+import LondonOverview from "./pages/ProjectOverviews/LondonOverview.jsx";
+import OverdraftOverview from "./pages/ProjectOverviews/OverdraftOverview.jsx";
 
 import { Routes, Route, HashRouter } from "react-router-dom";
 import Footer from "./Footer.jsx";
@@ -21,7 +24,12 @@ function App() {
         <Route path="/games" element={<GamesPage />} />
         <Route path="/design" element={<DesignPage />} />
         <Route path="/contact" element={<ContactPage />} />
-        <Route path="/bedmime" element={<BedmimeOverviewPage />} />
+        {/* Game Paths */}
+        <Route path="/games/bedmime" element={<BedmimeOverviewPage />} />
+        <Route path="/games/overdraft" element={<OverdraftOverview />} />
+        {/* Design Paths */}
+        <Route path="/design/blink" element={<BlinkOverview />} />
+        <Route path="/design/ldi" element={<LondonOverview />} />
       </Routes>
       {/*<Footer />*/}
     </main>

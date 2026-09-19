@@ -23,7 +23,7 @@ export default function GameProjects() {
           - Implemented a variety of interesting and game-defining mechanics
           
           - Lead and organized team with vastly different creative approaches on a common project`}
-        ProjectOverviewPath={`#`}
+        ProjectOverviewPath={`/games/overdraft`}
         ProjectPlatformTitle={``}
         ProjectPlatformLink={`#`}
       />
@@ -43,7 +43,7 @@ export default function GameProjects() {
           - Implemented a simple control scheme for low barrier of entry
           
           - Created unique 3D models to meet vision`}
-        ProjectOverviewPath={`/bedmime`}
+        ProjectOverviewPath={`/games/bedmime`}
         ProjectPlatformTitle={`Itch.io`}
         ProjectPlatformLink="https://philosofox.itch.io/bedmime"
       />
