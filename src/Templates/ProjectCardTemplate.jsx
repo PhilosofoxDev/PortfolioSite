@@ -15,7 +15,7 @@ export default function PortfolioCardTemplate({
   return (
     <div>
       <div className="flex flex-2 justify-evenly w-screen text-mainGreen">
-        <div className="w-full items-center flex">
+        <div className="w-full flex items-start">
           <img src={ProjectImageSrc} className="cardImage"></img>
         </div>
         <div className="w-full items-center">
