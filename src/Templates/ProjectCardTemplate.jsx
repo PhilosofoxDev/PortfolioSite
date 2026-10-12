@@ -23,7 +23,7 @@ export default function PortfolioCardTemplate({
         </div>
         <div className="w-full lg:items-center lg:ml-2">
           <Link to={ProjectOverviewPath}>
-            <h1 className="projectCardUnderline self-cemter text-center justify-self-center lg:justify-self-start font-PatuaOne lg:ml-10 mt-4 lg:mt-0 2xl:text-[5rem] xl:text-[4.15rem] lg:text-[3.15rem] md:text-6xl text-[2.85rem] greenTextGradient">
+            <h1 className="projectCardUnderline self-cemter text-center justify-self-center lg:justify-self-start font-PatuaOne lg:ml-10 mt-4 lg:mt-0 2xl:text-[5rem] xl:text-[4.15rem] lg:text-[3.15rem] md:text-6xl text-[2.55rem] greenTextGradient">
               {ProjectTitle}
             </h1>
           </Link>
