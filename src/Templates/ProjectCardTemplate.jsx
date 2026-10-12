@@ -16,11 +16,14 @@ export default function PortfolioCardTemplate({
     <div>
       <div className="flex lg:flex-row flex-col flex-2 justify-evenly w-screen text-mainGreen">
         <div className="mr-10 ml-10 lg:ml-8 lg:mr-0 lg:w-full flex not-lg:justify-center lg:items-start">
-          <img src={ProjectImageSrc} className="cardImage"></img>
+          <img
+            src={ProjectImageSrc}
+            className="border-[0.75rem] border-mainGreen rounded-2xl w-full"
+          ></img>
         </div>
         <div className="w-full lg:items-center lg:ml-2">
           <Link to={ProjectOverviewPath}>
-            <h1 className="projectCardUnderline justify-self-center lg:justify-self-start font-PatuaOne lg:ml-10 mt-4 lg:mt-0 2xl:text-[5rem] xl:text-[4.15rem] lg:text-[3.15rem] md:text-6xl text-[2.85rem] greenTextGradient">
+            <h1 className="projectCardUnderline self-cemter text-center justify-self-center lg:justify-self-start font-PatuaOne lg:ml-10 mt-4 lg:mt-0 2xl:text-[5rem] xl:text-[4.15rem] lg:text-[3.15rem] md:text-6xl text-[2.85rem] greenTextGradient">
               {ProjectTitle}
             </h1>
           </Link>
@@ -53,7 +56,7 @@ export default function PortfolioCardTemplate({
           </div>
         </div>
       </div>
-      <hr className="bg-linear-to-r from-accentGreen to-mainGreen h-2 mt-12 mb-13 mr-30 ml-30 rounded-2xl" />
+      <hr className="bg-linear-to-r from-accentGreen to-mainGreen h-[.65rem] mt-8 m-12 mb-6 lg:mr-60 lg:ml-60 rounded-2xl" />
     </div>
   );
 }

@@ -11,7 +11,7 @@ export default function GamesPage() {
         <h1 className="greenTextGradient font-Valve xl:text-8xl lg:text-7xl sm:text-7xl text-5xl lg:mt-0 mt-4 flex">
           Games
         </h1>
-        <h2 className="greenTextGradient font-Valve xl:text-2xl lg:text:lg sm:text-xl flex mb-2">
+        <h2 className="greenTextGradient font-Valve xl:text-2xl lg:text-xl sm:text-xl flex mb-2 text-center">
           You can find my Game Development projects here.
         </h2>
         <div className="flex flex-col">
