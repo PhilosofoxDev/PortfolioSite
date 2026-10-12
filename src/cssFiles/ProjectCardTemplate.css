@@ -24,7 +24,7 @@ h1, h2 {
 .projectCardUnderline:before {
     content: "";
     position: absolute;
-    bottom: 10px;
+    bottom: 0px;
     height: 6px;
     width: 100%;
     background: linear-gradient(to left, var(--color-mainGreen), var(--color-accentGreen));

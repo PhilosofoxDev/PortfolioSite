@@ -11,15 +11,15 @@ export default function Header() {
     <div
       className={`static bg-linear-to-l from-mainGreen to-accentGreen align-top items-start overscroll-x-none w-screen border-b-4 border-black`}
     >
-      <header className="w-screen pb-5 pt-5 pr-10 sm:pl-20 pl-10 flex flex-col">
+      <header className="w-screen pb-5 pt-5 pr-10 pl-10 flex flex-col">
         <div
           id="NameAndTitle"
           className="flex flex-col sm:items-start items-center justify-centers font-bold sm:pt-4"
         >
-          <h1 className="gradient-text 2xl:text-[6rem] xl:text-[5.25rem] lg:text-[4.5rem] md:text-[3.75rem] sm:text-[3rem] text-[2rem] tracking-wide font-Valve">
+          <h1 className="gradient-text 2xl:text-[6rem] xl:text-[5.25rem] lg:text-[4.5rem] md:text-[3.75rem] sm:text-[3rem] text-[2.5rem] tracking-wide font-Valve">
             Nathan Lomnicky
           </h1>
-          <h2 className="gradient-text 2xl:text-[3.35rem] xl:text-[2.75rem] lg:text-[2.25rem] md:text-[2rem] font-PatuaOne tracking-wide pt-1">
+          <h2 className="gradient-text 2xl:text-[3.35rem] xl:text-[2.75rem] lg:text-[2.25rem] md:text-[2rem] text-[1.4rem] font-PatuaOne tracking-wide pt-1 mb-3 lg:mb-0">
             Gameplay Engineer and Web Developer
           </h2>
         </div>
@@ -27,7 +27,7 @@ export default function Header() {
           id="headerDescription"
           className="flex flex-col items-start justify-center"
         >
-          <h3 className="2xl:text-2xl lg:text-xl md:text-lg font-PatuaOne tracking-wide xl:mr-[40%] lg:mr-[30%] md:mr-[20%] sm:mr-[10%] wrap-anywhere">
+          <h3 className="2xl:text-2xl lg:text-xl md:text-lg text-md font-PatuaOne tracking-wide xl:mr-[40%] lg:mr-[30%] md:mr-[20%] sm:mr-[10%] wrap-anywhere text-center sm:text-left">
             Hey! I'm Nathan, a programmer specialized in the underlying gameplay
             systems that make experiences fun and engaging, particularly in
             combat and player progression.
@@ -37,7 +37,7 @@ export default function Header() {
             applications.
           </h3>
         </div>
-        <div className="flex gap-x-10 pt-4">
+        <div className="flex lg:gap-x-10 gap-x-10 pt-4 justify-center sm:justify-start">
           <a
             href="https://www.linkedin.com/in/nathan-lomnicky/"
             target="_blank"

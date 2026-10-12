@@ -10,9 +10,9 @@ export default function GameProjects() {
       <ProjectCardTemplate
         ProjectTitle="Project OVERDRAFT"
         ProjectImageSrc={ProjectOVERDRAFT}
-        ProjectDescription={`Producer, Lead Systems Developer
+        ProjectDescription={`Producer, Lead Gameplay Engineer
             
-            4 Month Indie Development (Aug - Dec 2026)
+            Active Indie Development Project (Aug - Dec 2026)
             
             Fast-Paced Strategy-Based FPS`}
         ProjectToolsUsed={`Godot, Trello`}
