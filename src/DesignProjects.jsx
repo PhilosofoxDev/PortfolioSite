@@ -23,6 +23,8 @@ export default function DesignProjects() {
           
           - Took consistent and active feedback on a highly iterative project`}
         ProjectOverviewPath={`/design/blink`}
+        ProjectButtonTitle={`BLINK 2026`}
+        ProjectPlatformTitle={``}
         ProjectPlatformLink="https://www.blinkcincinnati.com/"
       />
       <ProjectCardTemplate
@@ -42,6 +44,7 @@ export default function DesignProjects() {
           
           - Explored international cultures and the principles of ethical design`}
         ProjectOverviewPath={`/design/ldi`}
+        ProjectButtonTitle={`London Interactive`}
         ProjectPlatformTitle={``}
         ProjectPlatformLink={`#`}
       />

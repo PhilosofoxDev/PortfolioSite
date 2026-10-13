@@ -11,15 +11,15 @@ export default function Header() {
     <div
       className={`static bg-linear-to-l from-mainGreen to-accentGreen align-top items-start overscroll-x-none w-screen border-b-4 border-black`}
     >
-      <header className="w-screen pb-5 pt-5 pr-10 pl-10 flex flex-col">
+      <header className="w-screen pb-5 pt-5 pr-5 pl-5 flex flex-col">
         <div
           id="NameAndTitle"
-          className="flex flex-col items-center md:items-start justify-center font-bold sm:pt-4"
+          className="flex flex-col text-center md:text-start justify-center font-bold sm:pt-4"
         >
-          <h1 className="gradient-text 2xl:text-[6rem] xl:text-[5.25rem] lg:text-[4.5rem] md:text-[3.75rem] sm:text-[3rem] text-[2.5rem] tracking-wide font-Valve">
+          <h1 className="gradient-text 2xl:text-[6rem] xl:text-[5.25rem] lg:text-[4.5rem] md:text-[3.75rem] sm:text-[3rem] text-[2.2rem] tracking-wide font-Valve">
             Nathan Lomnicky
           </h1>
-          <h2 className="gradient-text center 2xl:text-[3.35rem] xl:text-[2.75rem] lg:text-[2.25rem] md:text-[2rem] text-[1.4rem] font-PatuaOne tracking-wide pt-1 mb-3 lg:mb-0">
+          <h2 className="gradient-text center 2xl:text-[3.35rem] xl:text-[2.75rem] lg:text-[2.25rem] md:text-[2rem] text-[1.2rem] font-PatuaOne tracking-wide pt-1 mb-3 lg:mb-0">
             Gameplay Engineer and Web Developer
           </h2>
         </div>

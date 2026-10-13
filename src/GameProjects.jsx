@@ -24,7 +24,8 @@ export default function GameProjects() {
           
           - Lead and organized team with vastly different creative approaches on a common project`}
         ProjectOverviewPath={`/games/overdraft`}
-        ProjectPlatformTitle={``}
+        ProjectButtonTitle={`Project OVERDRAFT`}
+        ProjectPlatformTitle={`Itch.io`}
         ProjectPlatformLink={`#`}
       />
       <ProjectCardTemplate
@@ -44,6 +45,7 @@ export default function GameProjects() {
           
           - Created unique 3D models to meet vision`}
         ProjectOverviewPath={`/games/bedmime`}
+        ProjectButtonTitle={`BEDMIME`}
         ProjectPlatformTitle={`Itch.io`}
         ProjectPlatformLink="https://philosofox.itch.io/bedmime"
       />

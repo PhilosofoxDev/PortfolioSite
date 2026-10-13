@@ -8,10 +8,10 @@ export default function DesignPage() {
     <div className="flex flex-col justify-center items-center w-screen min-h-screen bg-linear-to-l to-warmWhite from-mainWhite">
       <Page />
       <div className="warmBGGradient flex flex-col items-center min-h-screen min-w-screen lg:mb-10 scroll-mt-38">
-        <h1 className="greenTextGradient font-Valve xl:text-8xllg:text-7xl sm:text-7xl text-5xl lg:mt-0 mt-4 flex">
+        <h1 className="greenTextGradient font-Valve xl:text-8xl lg:text-7xl sm:text-7xl text-5xl lg:mt-0 mt-4 flex">
           Design
         </h1>
-        <h2 className="greenTextGradient font-Valve xl:text-2xl lg:text:lg sm:text-xl flex mb-2">
+        <h2 className="greenTextGradient font-Valve xl:text-2xl lg:text-xl sm:text-xl text-[0.9rem] mr-2 ml-2 lg:mr-0 lg:ml-0 flex mb-2 text-center">
           You can find my Web Dev/UX Design projects here.
         </h2>
         <div className="flex flex-col">

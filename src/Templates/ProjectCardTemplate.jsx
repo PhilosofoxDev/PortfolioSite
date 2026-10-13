@@ -9,6 +9,7 @@ export default function PortfolioCardTemplate({
   ProjectToolsUsed, // Tools separated by commas
   ProjectNotes,
   ProjectOverviewPath,
+  ProjectButtonTitle,
   ProjectPlatformTitle,
   ProjectPlatformLink,
 }) {
@@ -18,7 +19,7 @@ export default function PortfolioCardTemplate({
         <div className="mr-10 ml-10 lg:ml-8 lg:mr-0 lg:w-full flex not-lg:justify-center lg:items-start">
           <img
             src={ProjectImageSrc}
-            className="border-[0.75rem] border-mainGreen rounded-2xl w-full"
+            className="border-[0.75rem] border-mainGreen rounded-3xl w-full"
           ></img>
         </div>
         <div className="w-full lg:items-center lg:ml-2">
@@ -39,7 +40,7 @@ export default function PortfolioCardTemplate({
               to={ProjectOverviewPath}
               className="flex projectCardButton w-[60%] rounded-lg justify-center items-center"
             >
-              <h1 className="text-xl font-PatuaOne buttonText">
+              <h1 className="text-lg text-center font-PatuaOne buttonText ml-2 mr-2">
                 Project Overview
               </h1>
             </Link>
@@ -49,8 +50,8 @@ export default function PortfolioCardTemplate({
               rel="noopener noreferrer"
               className="flex projectCardButton w-[40%] rounded-lg justify-center items-center"
             >
-              <h1 className="text-sm lg:text-[1rem] font-PatuaOne buttonText text-center">
-                {`${ProjectPlatformTitle ? `${ProjectTitle} on ${ProjectPlatformTitle}` : `${ProjectTitle} Website`}`}
+              <h1 className="text-sm lg:text-[1rem] font-PatuaOne buttonText text-center ml-2 mr-2">
+                {`${ProjectPlatformTitle ? `${ProjectButtonTitle} on ${ProjectPlatformTitle}` : `${ProjectButtonTitle} Website`}`}
               </h1>
             </a>
           </div>

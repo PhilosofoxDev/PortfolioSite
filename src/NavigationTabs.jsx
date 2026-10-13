@@ -10,9 +10,9 @@ import {
 
 export default function NavigationTabs() {
   return (
-    <div className="flex font-EmblemaOne self-start sticky top-0 w-screen">
+    <div className="flex font-EmblemaOne justify-center md:justify-start sticky top-0 w-screen">
       <nav className="">
-        <ul className="gap-x-0.5 max-md:hidden md:flex text-[1.2rem] text-white font-bold self-center">
+        <ul className="flex text-[1.2rem] text-white font-bold self-center w-full justify-between">
           <li className="">
             <NavTab tabName="Games" tabLink="/games" />
           </li>
