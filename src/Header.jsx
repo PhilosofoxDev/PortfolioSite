@@ -23,11 +23,8 @@ export default function Header() {
             Gameplay Engineer and Web Developer
           </h2>
         </div>
-        <div
-          id="headerDescription"
-          className="flex flex-col items-center md:items-start justify-center"
-        >
-          <h3 className="2xl:text-2xl lg:text-xl md:text-lg text-md font-PatuaOne tracking-wide xl:mr-[40%] lg:mr-[30%] md:mr-[20%] sm:mr-[10%] wrap-anywhere text-center md:text-start">
+        <div id="headerDescription" className="flex flex-col md:items-start">
+          <h3 className="2xl:text-2xl lg:text-xl md:text-lg text-md font-PatuaOne tracking-wide xl:mr-[40%] lg:mr-[30%] wrap-anywhere text-center md:text-start">
             Hey! I'm Nathan, a programmer specialized in the underlying gameplay
             systems that make experiences fun and engaging, particularly in
             combat and player progression.

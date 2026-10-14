@@ -10,7 +10,7 @@ import {
 
 export default function NavigationTabs() {
   return (
-    <div className="flex font-EmblemaOne justify-center md:justify-start sticky top-0 w-screen">
+    <div className="flex font-EmblemaOne justify-center sm:justify-start sticky top-0 w-screen">
       <nav className="">
         <ul className="flex text-[1.2rem] text-white font-bold self-center w-full justify-between">
           <li className="">
